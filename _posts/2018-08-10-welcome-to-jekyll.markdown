@@ -16,15 +16,10 @@ Front matter is YAML stuff at top of text file, with 3 dashes before and after.
 
 This page's front matter is:
 
-
 layout: post
-
 title:  "Welcome to Serge!"
-
 date:   2018-08-10 19:33:58 -0400
-
 categories: jekyll update
-
 
 
 Jekyll also offers powerful support for code snippets:
