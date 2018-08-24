@@ -25,6 +25,7 @@ date:   2018-08-10 19:33:58 -0400
 categories: jekyll update
 
 
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
