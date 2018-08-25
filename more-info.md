@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /more info/
+permalink: /moreinfo/
 ---
 
 Welcome to the SPA data website. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
