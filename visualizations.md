@@ -11,7 +11,7 @@ Here are examples of the types of visualizations that can be made with data from
 
 
 
-<a href="../img/map1.jpg">
+<a href="http://arcg.is/1Xv1HL">
 <img src="../img/map1.jpg" style="width:600px;height:500px;" title="map" alt="map">
 </a>
 
