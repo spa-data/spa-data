@@ -2,7 +2,7 @@
 
 ### Temp repository for SPA-data site
 
-Contains the files necessary for Jekyll site accessible at https://mss2221.github.io/spa-data/
+Contains the files necessary for Jekyll site accessible at https://spa-data.github.io/spa-data/
 
 Changes can be made in local repository and pushed to origin, or edited through web interface.
 
