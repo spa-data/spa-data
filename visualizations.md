@@ -16,7 +16,7 @@ Here are examples of the types of visualizations that can be made with data from
 </a>
 
 
-<a href="../img/alluvial.jpg"><img src="../img/alluvial.jpg" style="width:550px;height:475;" title="alluvial chart" alt="alluvial chart">
+<a href="../img/alluvial.jpg"><img src="../img/alluvial.jpg" style="width:600px;height:500;" title="alluvial chart" alt="alluvial chart">
 </a>
 
 <a href="../img/ProkStamp.jpeg">
