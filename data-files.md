@@ -10,7 +10,7 @@ test file
 <a href="https://mss2221.github.io/spa-data/textfiles/xml/series2/subseries_II-1.xml">Link to Series 2 xml</a>
 
 test with relative link
-<a href="/textfiles/xml/series2/subseries_II-1.xml">Link to textfiles folder</a>
+<a href="spa-data/textfiles/xml/series2/subseries_II-1.xml">Link to textfiles folder</a>
 
 
 http link:
