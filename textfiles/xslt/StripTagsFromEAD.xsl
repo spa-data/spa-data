@@ -10,7 +10,7 @@
 <xsl:template match="c">
    <xsl:apply-templates select="did/unittitle"></xsl:apply-templates>
    <xsl:apply-templates select="did/container"></xsl:apply-templates>  
-   <xsl:apply-templates select="did/note"></xsl:apply-templates> 
+   <xsl:apply-templates select="did/note/p[contains(text(),'Format')]"/> 
 </xsl:template>
    
    <xsl:template match="did/unittitle">TITLE: <xsl:value-of select="."/><xsl:text>&#xa;</xsl:text></xsl:template>
