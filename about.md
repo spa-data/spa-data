@@ -17,4 +17,4 @@ You can find the source code for Jekyll at GitHub:
 
 [jekyll-organization]: https://github.com/jekyll
 
-#### Rev. site publisher to org
+##### Rev. site publisher to org
