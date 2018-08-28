@@ -1,6 +1,17 @@
 <!-- convert CU EAD to legible output for record checking
      (i.e., without element tags) -->
 
+<!-- REGEX for spa-data
+   capture text after colon
+   :\s(.*)<
+   
+   capture field names
+   :\s(.*)<
+   
+    replace(string, regex, replacement-string)
+    //author/replace(., "[A-Z]", "*")
+
+-->
 <xsl:stylesheet 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
