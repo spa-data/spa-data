@@ -8,6 +8,9 @@ Welcome to the SPA data website.
 
 [Serge Prokofiev Archive finding aid](https://findingaids.library.columbia.edu/ead/nnc-rb/ldpd_10815449/summary)
 
+This site uses the Jekyll "Minima" theme.
+
+An alternative theme is the ["Ed." theme](https://mss2221.github.io/edspa/). Slightly more complex than "Minima" but designed specifically for text-based DH projects.
 
 You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
