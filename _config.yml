@@ -36,7 +36,7 @@ github_username:  spa-data
 
 # BUILD SETTINGS
 markdown: kramdown
-theme: alembic-jekyll-theme
+theme: minima
 
 plugins:
   - jekyll-feed
