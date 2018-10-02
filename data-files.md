@@ -4,9 +4,12 @@ title: Data Files
 permalink: /data-files/
 ---
 
-Here are where text files available for download can go.
+Here are data files from the Serge Prokofiev archives.
+The files are in CSV format and have been extracted from the SPA Correspondence Sites project.
 
-_test files_:
+Each file is a data transfer from one of the four map layers and contains the latitude and longitude for the plotted locations.
+
+_Files_:
 
 * <a href="https://spa-data.github.io/spa-data/textfiles/xml/series2/subseries_II-1.xml">link to Series 2 XML file</a>
 
