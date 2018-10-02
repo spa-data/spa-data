@@ -7,7 +7,7 @@ permalink: /data-files/
 Here are data files from the Serge Prokofiev Archive.
 The files are in CSV format and have been extracted from the __[SPA Correspondence Sites](http://arcg.is/vOTC8)__ project.
 
-Each file is a data transfer from one of the four map layers and contains the latitude and longitude for the plotted locations.
+Each file is a data transfer from one of the four map layers and contains the latitude and longitude for the plotted locations. (NB: Latitude and Longitude are given as x,y coordinates, so the 'x' column contains Longitude and the 'y' column contains Latitude.)
 
 ### Prokofiev's Outbox
 #### Correspondence sent by Prokofiev
