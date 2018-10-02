@@ -19,7 +19,7 @@
 
 title: Serge Prokofiev Archive as Data
 tag: A Digital Humanities Project
-email: your-email@example.com
+email: mss2221@columbia.edu
 description: Visualizations and data files drawn the from Serge Prokofiev Archive finding aid.
 
 # ! ! -- BASEURL SETTINGS -- ! !
@@ -31,7 +31,7 @@ baseurl: "spa-data/"
 #baseurl: ""
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  spa-data
 
 # BUILD SETTINGS
