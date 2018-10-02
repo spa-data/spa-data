@@ -12,13 +12,13 @@ Each file is a data transfer from one of the four map layers and contains the la
 ### Prokofiev's Outbox
 #### Correspondence sent by Prokofiev
 
-__[Prokofiev's location](../textfiles/csv/ProkSenderProkAddress.csv) ([ProkSenderProkAddress.csv](../textfiles/csv/ProkSenderProkAddress.csv))__
+__Prokofiev's location ([ProkSenderProkAddress.csv](../textfiles/csv/ProkSenderProkAddress.csv))__
 
-__[Recipient's location](../textfiles/csv/ProkSenderRecipientrAddress.csv) ([ProkSenderRecipientrAddress.csv](../textfiles/csv/ProkSenderRecipientrAddress.csv))__
+__Recipient's location ([ProkSenderRecipientrAddress.csv](../textfiles/csv/ProkSenderRecipientrAddress.csv))__
 
 ### Prokofiev's Inbox
 #### Correspondence received by Prokofiev
 
-__[Prokofiev's location](../textfiles/csv/ProkRecipientProkAddress.csv) ([ProkRecipientProkAddress.csv](../textfiles/csv/ProkRecipientProkAddress.csv))__
+__Prokofiev's location ([ProkRecipientProkAddress.csv](../textfiles/csv/ProkRecipientProkAddress.csv))__
 
-__[Sender's location](../textfiles/csv/ProkRecipientSenderAddress.csv) ([ProkRecipientSenderAddress.csv](../textfiles/csv/ProkRecipientSenderAddress.csv))__
+__Sender's location ([ProkRecipientSenderAddress.csv](../textfiles/csv/ProkRecipientSenderAddress.csv))__
