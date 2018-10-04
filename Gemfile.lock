@@ -74,11 +74,11 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll (~> 3.8.3)
+  jekyll (~> 3.8.4)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
   tzinfo-data
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.4
+   1.16.5
