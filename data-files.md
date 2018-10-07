@@ -6,7 +6,7 @@ permalink: /data-files/
 
 ### Data files from the Serge Prokofiev Archive
 
-This __XML__ file contains the entire set of records in SPA _Series 2.1: Personal Correspondence_ encoded in Columbia University Libraries' EAD ([Encoded Archival Description](https://www.loc.gov/rr/ead/)) format.
+This __XML__ file contains the entire set of records in SPA _Series 2.1: Personal Correspondence_ encoded in Columbia University Libraries' [Encoded Archival Description](https://www.loc.gov/rr/ead/) (EAD) format.
 
 [__Series 2.1: Personal Correspondence__](../textfiles/xml/Series2.1.xml)
 
