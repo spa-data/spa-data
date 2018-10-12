@@ -4,3 +4,4 @@
 
 layout: home
 ---
+![Prokofiev Image](img/ProkStamp.jpeg)
