@@ -4,7 +4,7 @@
 
 layout: home
 ---
-![Prokofiev Image](img/Proko_signature.jpg){:height="400px" width="700px"}
+![Prokofiev Image](img/Proko_signature.jpg){:height="400px" width="600px"}
 
 # The Serge Prokofiev Archive as Data 
 
