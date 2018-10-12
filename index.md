@@ -16,3 +16,5 @@ Inspired by the [Always Already Computational - Collections as Data](https://col
  
 By subverting hierarchies embedded in the traditional archival discovery systems, the data-driven approach empowers the researcher to compare, match, arrange and combine information, and generate knowledge in ways that conventional finding aids do not.
 
+This project is a collaboation between Natalia Ermolaev and Mark Saccomano. 
+
