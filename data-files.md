@@ -17,7 +17,7 @@ The following files are in __CSV__ format and have been extracted from the __[SP
 
 Each file is a data transfer from one of the four map layers and contains the latitude and longitude for the plotted locations.
 
-__NB:__ Latitude and longitude are given as XY coordinates, so the 'x' column contains _longitude_ and the 'y' column contains _latitude_.
+NB: Latitude and longitude are given as XY coordinates, so the 'x' column contains _longitude_ and the 'y' column contains _latitude_.
 
 ### Prokofiev's Outbox
 #### Correspondence sent by Prokofiev
