@@ -3,7 +3,7 @@ layout: page
 title: Visualizations
 permalink: /visualizations/
 ---
-Here are examples of the types of visualizations that can be made with data from the archive.
+Examples of the types of visualizations that can be made with data from the archive.
 
 _Interactive map:_ __[SPA Correspondence Sites](http://arcg.is/vOTC8)__
 <a href="http://arcg.is/1Xv1HL">
