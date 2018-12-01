@@ -19,7 +19,7 @@ _Interactive map:_ __[SPA Correspondence Sites](http://arcg.is/vOTC8)__
 </a>
  -->
 <br><br>
-_Alluvial chart:_ Languages used in annotating archive manuscripts_
+_Alluvial chart:_ Languages used in annotating archive manuscripts
  <a href="http://arcg.is/1Xv1HL"> <br><br>
 <a href="../img/alluvial.jpg"><img src="../img/alluvial.jpg" style="width:800px;height:300;" title="alluvial chart" alt="alluvial chart">
 </a>
