@@ -19,7 +19,7 @@
 
 title: Serge Prokofiev Archive as Data
 tag: A Digital Humanities Project
-email: your-email@example.com
+email: ne99@columbia.edu m.saccomano@columbia.edu
 description: Visualizations and data files drawn the from Serge Prokofiev Archive finding aid.
 
 # ! ! -- BASEURL SETTINGS -- ! !
@@ -27,11 +27,11 @@ description: Visualizations and data files drawn the from Serge Prokofiev Archiv
 # To display website on LOCAL server, set baseurl to ""
 # To deplay website on GH-PAGES, set baseurl to "spa-data/"
 
-# baseurl: "spa-data/"
-baseurl: ""
+baseurl: "spa-data/"
+#baseurl: ""
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username:  spa-data
 
 # BUILD SETTINGS
