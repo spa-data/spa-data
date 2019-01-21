@@ -3,24 +3,6 @@ layout: page
 title: Visualizations
 permalink: /visualizations/
 ---
-<<<<<<< HEAD
-
-Here are examples of the types of visualizations that can be made with data from the archive.
-
-
-
-
-
-
-<a href="http://arcg.is/1Xv1HL">
-<img src="../img/map1.jpg" style="width:500px;height:225;" title="map" alt="map">
-</a>
-
-
-<a href="../img/alluvial.jpg"><img src="../img/alluvial.jpg" style="width:800px;height:300;" title="alluvial chart" alt="alluvial chart">
-</a>
-
-=======
 Examples of visualizations that can be made with data from the archive.
 
 <!-- _Interactive map:_ __[SPA Correspondence Sites](http://arcg.is/vOTC8)__
@@ -38,7 +20,6 @@ _Alluvial chart:_ Languages used in annotating archive manuscripts
 </a>
 
 
->>>>>>> 7967cfb19df6903ead5f9ca5d417956772f47162
 <!--
 <a href="../img/ProkStamp.jpeg">
 <img src="../img/ProkStamp.jpeg"  title="Hi! It's me, Serge!" alt="stamp"/>
