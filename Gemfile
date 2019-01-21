@@ -8,19 +8,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-<<<<<<< HEAD
-gem "jekyll", "~> 3.8.3"
+
+
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 gem "alembic-jekyll-theme"
-=======
 gem "jekyll", "~> 3.8.4"
-
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
-
->>>>>>> 7967cfb19df6903ead5f9ca5d417956772f47162
 
 
 
