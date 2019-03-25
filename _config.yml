@@ -27,8 +27,8 @@ description: Visualizations and data files drawn the from Serge Prokofiev Archiv
 # To display website on LOCAL server, set baseurl to ""
 # To deplay website on GH-PAGES, set baseurl to "spa-data/"
 
-baseurl: "spa-data/"
-#baseurl: ""
+#baseurl: "spa-data/"
+baseurl: ""
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
