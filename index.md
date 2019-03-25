@@ -4,6 +4,9 @@
 
 layout: home
 ---
+
+## [MEI index](meimidi/index.html)
+
 ![Prokofiev Image](img/Proko_signature.jpg){:height="400px" width="600px"}
 
 # The Serge Prokofiev Archive as Data
