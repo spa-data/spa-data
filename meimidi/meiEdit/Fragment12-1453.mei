@@ -56,7 +56,7 @@
                                     <rest xml:id="rest-0000001403432738" dots="1" dur="4" />
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000001393199872" staff="1" startid="#note-0000000530303593" mm="120" mm.unit="4"></tempo>
+                            <tempo xml:id="tempo-0000001393199872" staff="1" startid="#note-0000000530303593" mm="132" mm.unit="4"></tempo>
                         </measure>
                         <measure xml:id="measure-0000000913059233" n="1">
                             <staff xml:id="staff-0000001487357628" n="1">
@@ -342,8 +342,8 @@
                                     </beam>
                                     <note xml:id="note-0000000671816283" dur="8" oct="6" pname="d" color="#000000" stem.dir="up" />
                                     <note xml:id="note-0000002043143958" dur="4" oct="6" pname="g" color="#000000" stem.dir="up" />
-
-                                    <note dur="32" oct="0" pname="z" visible="false"/>
+                                    <!-- Dummy note -->
+                                    <note dur="4" oct="6" pname="c" visible="false"/>
 
                                 </layer>
                                 <layer xml:id="layer-0000001853594331" n="2">
@@ -392,15 +392,15 @@
                                     <note xml:id="note-0000001471027064" dur="8" oct="3" pname="b" color="#000000" stem.dir="up" />
                                     <note xml:id="note-0000001219499429" dur="4" oct="4" pname="g" color="#000000" stem.dir="up" />
                                     <rest xml:id="rest-0000001603897109" dots="1" dur="4" />
-
-                                    <note dur="32" oct="0" pname="z" visible="false"/>
-
                                 </layer>
                                 <layer xml:id="layer-0000000096553739" n="1" />
                                 <layer xml:id="layer-0000000262056259" n="4">
                                     <space xml:id="space-0000001876770960" dur="2" />
                                     <space xml:id="space-0000000484429722" dur="4" />
                                     <note xml:id="note-0000001473614061" dots="1" dur="4" oct="3" pname="g" color="#000000" stem.dir="down" />
+
+                                  <!-- Dummy note -->
+                                  <note dur="4" oct="4" pname="g" visible="false"/>
                                 </layer>
                             </staff>
                         </measure>

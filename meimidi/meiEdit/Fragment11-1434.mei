@@ -63,10 +63,10 @@
                                 </layer>
                                 <layer xml:id="layer-0000001947358431" n="1" />
                             </staff>
-                            <dir xml:id="dir-0000000972649640" staff="1" startid="#note-0000001489540275" place="above">
+                            <dir xml:id="dir-0000000972649640" staff="1" tstamp="1.2" place="above">
                                 <rend xml:id="rend-0000000306857769" fontfam="Plantin MT Std" fontstyle="italic" fontweight="bold">Allegro</rend>
                             </dir>
-                            <tempo xml:id="tempo-0000001765527398" staff="1" startid="#note-0000001489540275" midi.bpm="150"></tempo>
+                            <tempo xml:id="tempo-0000001765527398" staff="1" startid="#note-0000001489540275" mm="180" mm.unit="4"></tempo>
                         </measure>
                         <measure xml:id="measure-0000001400091820" n="2">
                             <staff xml:id="staff-0000000243102433" n="1">
@@ -198,7 +198,9 @@
                             <staff xml:id="staff-0000001038129916" n="1">
                                 <layer xml:id="layer-0000000456885772" n="1">
                                     <note xml:id="note-0000000632577018" dur="2" oct="6" pname="c" color="#000000" stem.dir="down" />
+                                    <note dur="4" pname="c" oct="4" visible="false"/>
                                 </layer>
+
                             </staff>
                             <staff xml:id="staff-0000001561105260" n="2">
                                 <layer xml:id="layer-0000000813392433" n="2">

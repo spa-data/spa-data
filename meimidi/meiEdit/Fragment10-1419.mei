@@ -301,6 +301,8 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <slur xml:id="slur-x4" startid="#note-0000002045299817" endid="#note-0000000575304017" color="#000000" />
+
                         </measure>
                         <measure xml:id="measure-0000000834614017" n="9">
                             <staff xml:id="staff-0000001846593486" n="1">
@@ -331,7 +333,7 @@
                                     <note xml:id="note-0000001489484482" dur="4" oct="1" pname="b" color="#000000" stem.dir="down" />
                                 </layer>
                             </staff>
-                            <tie xml:id="tie-0000001028582835" startid="#note-0000000480406090" endid="#note-0000000376998741" />
+                            <tie xml:id="tie-0000001028582835" startid="#note-0000000480406090" endid="#note-0000001786133377" />
                             <tie xml:id="tie-0000000835895738" startid="#note-0000001670501072" endid="#note-0000000102747959" />
                         </measure>
                         <measure xml:id="measure-0000001451327764" n="10">
@@ -357,6 +359,8 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <slur xml:id="slur-x5" startid="#note-0000002140856932" endid="#note-0000000046969654" color="#000000" />
+
                         </measure>
                         <sb xml:id="sb-0000000754328322" />
                         <measure xml:id="measure-0000000709375663" n="11">
@@ -388,7 +392,7 @@
                                     <note xml:id="note-0000000708214498" dur="4" oct="1" pname="b" color="#000000" stem.dir="down" />
                                 </layer>
                             </staff>
-                            <tie xml:id="tie-0000000098930336" startid="#note-0000000376998741" />
+                            <tie xml:id="tie-0000001028582835" startid="#note-0000000376998741" endid="#note-0000000912347200" />
                             <tie xml:id="tie-0000000098428831" startid="#note-0000001118004464" endid="#note-0000000091167221" />
                         </measure>
                         <measure xml:id="measure-0000001054176881" n="12">
@@ -414,6 +418,8 @@
                                     </note>
                                 </layer>
                             </staff>
+                            <slur xml:id="slur-x6" startid="#note-0000000639222011" endid="#note-0000001402648673" color="#000000" />
+
                         </measure>
                         <measure xml:id="measure-0000001842385788" n="13">
                             <staff xml:id="staff-0000001669230191" n="1">
@@ -446,8 +452,12 @@
                                     <note xml:id="note-0000001103485889" dur="4" oct="2" pname="d" color="#000000" stem.dir="up">
                                         <artic xml:id="artic-0000001289522554" artic="stacc" />
                                     </note>
+
                                 </layer>
+
                             </staff>
+                            <slur xml:id="slur-x7" startid="#note-0000001201795122" endid="#note-0000002041104870" color="#000000" />
+
                         </measure>
                         <measure xml:id="measure-0000001702333726" n="15">
                             <staff xml:id="staff-0000000511694568" n="1">
@@ -459,6 +469,10 @@
                                 <layer xml:id="layer-0000001340947257" n="6">
                                     <note xml:id="note-0000000046660867" dur="2" oct="1" pname="b" color="#000000" stem.dir="up" />
                                     <rest xml:id="rest-0000000004166424" dur="2" />
+
+                                    <!-- DUMMY NOTE -->
+                                    <note dur="4" oct="4" pname="c" visible="false"/>
+
                                 </layer>
                             </staff>
                         </measure>
