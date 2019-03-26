@@ -198,6 +198,7 @@
                                     <note xml:id="note-0000000700868426" dur="8" oct="5" pname="d" color="#000000" stem.dir="down">
                                         <accid xml:id="accid-0000000589445602" accid="f" accid.ges="f" />
                                     </note>
+                                    <note dur="32" oct="0" pname="z" visible="false"/>
                                     <rest xml:id="rest-0000001123807090" dur="8" />
                                 </layer>
                             </staff>
