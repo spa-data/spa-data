@@ -17,6 +17,23 @@
         <script type="text/javascript" language="javascript" src="javascript/midi-player/midiplayer.js"></script>
         <link rel="stylesheet" href="css/midiplayer.css" />
 
+<!-- BUTTON STYLE -->
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+
     </head>
     <body style="margin: 0px;">
       <div id="fragTitle">
@@ -24,6 +41,15 @@
         <H2>Notebook 1: 1919-1920</H2>
         <H2>Fragment 5 &ndash; 1438.jpg</H2>
       </div>
+
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+
+<button class="button" onclick="goBack()">Back</button>
+
 
         <!-- A help overlay -->
         <div id="help_overlay">
@@ -178,5 +204,7 @@
                 loadFile();
             });
         </script>
+
+
     </body>
 </html>
