@@ -1,6 +1,8 @@
 #help_overlay {
-    position: fixed;
-    bottom: 30px;
+    /* position: fixed; */
+
+    position: relative;
+    top: 30px;
     left: 30px;
     padding: 15px;
     background-color: rgba(0,102,51,.8);
