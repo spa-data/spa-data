@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-22T00:14:42-05:00</updated><id>http://localhost:4000/</id><title type="html">Serge Prokofiev Archive as Data</title><subtitle>Visualizations and data files drawn the from Serge Prokofiev Archive finding aid.</subtitle></feed>
 =======
 <?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-25T13:17:38-04:00</updated><id>http://localhost:4000/</id><title type="html">Serge Prokofiev Archive as Data</title><subtitle>Visualizations and data files drawn the from Serge Prokofiev Archive finding aid.</subtitle></feed>
+>>>>>>> midi
+=======
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-27T20:54:44-04:00</updated><id>http://localhost:4000/</id><title type="html">Serge Prokofiev Archive as Data</title><subtitle>Visualizations and data files drawn the from Serge Prokofiev Archive finding aid.</subtitle></feed>
 >>>>>>> midi

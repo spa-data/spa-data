@@ -25,11 +25,23 @@
         <H2>Fragment 14 &ndash; 1407.jpg</H2>
       </div>
 
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+
+<button class="button" onclick="goBack()">Back</button>
+
+<button class="button" onclick="play_midi()">
+  <b>Click to play</b>
+</button>
+
         <!-- A help overlay -->
-        <div id="help_overlay">
+    <!-- <div id="help_overlay">
             <p>Press <b><strong>p</strong></b> to play</p>
-            <!-- <p>Click on any note or in the player progress bar to jump in the piece</p> -->
-        </div>
+            <p>Click on any note or in the player progress bar to jump in the piece</p>
+        </div> -->
 
         <!--//////////////////////////////////////////////////////-->
         <!-- The div where we are going to insert the MIDI Player -->
@@ -46,7 +58,7 @@
             var page = 1;
             var zoom = 50;
             var pageHeight = 2970;
-            var pageWidth = 2100; 
+            var pageWidth = 2100;
 
             ////////////////////////////////////////////////
             /* A variable for storing the highlighted ids */

@@ -25,16 +25,27 @@
         <H2>Fragment 8 &ndash; 1413.jpg</H2>
       </div>
 
+      <script>
+      function goBack() {
+        window.history.back();
+      }
+      </script>
+
+<button class="button" onclick="goBack()">Back</button>
+
+<button class="button" onclick="play_midi()">
+  <b>Click to play</b>
+</button>
+
         <!-- A help overlay -->
-        <div id="help_overlay">
+        <!-- <div id="help_overlay">
             <p>Press <b><strong>p</strong></b> to play</p>
-            <!-- <p>Press <b>'+'</b> or <b>'-'</b> to zoom in or out</p>
+            <p>Press <b>'+'</b> or <b>'-'</b> to zoom in or out</p>
             <p>Press <b>right</b> or <b>left</b> arrows to navigate the score</p>
-            <p>Press <b>ctrl + right</b> / <b>left</b> arrows to go to the beginning or the end</p> -->
-            <!-- <p>Resize the window to see the score adjusting to it</p> -->
-</div>
-            <!-- <p>Click on any note or in the player progress bar to jump in the piece</p> -->
-        </div>
+            <p>Press <b>ctrl + right</b> / <b>left</b> arrows to go to the beginning or the end</p>
+            <p>Resize the window to see the score adjusting to it</p> -->
+            <!-- <p>Click on any note or in the player progress bar to jump in the piece</p>
+        </div> -->
 
         <!--//////////////////////////////////////////////////////-->
         <!-- The div where we are going to insert the MIDI Player -->

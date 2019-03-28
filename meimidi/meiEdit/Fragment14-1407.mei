@@ -472,9 +472,8 @@
                                         <accid xml:id="accid-0000000022328444" accid="s" accid.ges="s" />
                                     </note>
 
-                                    <space xml:id="space-0000001212934040" dur="16" />
 
-                                    <space xml:id="space-0000000612090239" dur="4" />
+
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000827963525" n="2">
@@ -482,6 +481,8 @@
                                     <note xml:id="note-0000000610257568" dur="1" oct="3" pname="c" color="#000000">
                                         <accid xml:id="accid-0000000192980376" accid="s" accid.ges="s" />
                                     </note>
+                                    <!-- Insert Dummy note -->
+                                    <note xml:id="space-0000000612090239" dur="4" pname="c" oct="4" visible="false"/>
                                 </layer>
                                 <layer xml:id="layer-0000001035714496" n="4">
                                     <chord xml:id="chord-0000000892815329" dur="4" stem.dir="up">
@@ -490,7 +491,9 @@
                                         </note>
                                         <note xml:id="note-0000001068800484" oct="3" pname="a" color="#000000" />
                                     </chord>
-                                    <space xml:id="space-0000001738016716" dur="4" />
+                                    <!-- <space xml:id="space-0000001738016716" dur="4" /> -->
+                                    <!-- Insert Dummy note -->
+                                    <!-- <note xml:id="space-0000000612090239" dur="4" visible="false"/> -->
                                 </layer>
                                 <layer xml:id="layer-0000001921440860" n="1" />
                             </staff>
