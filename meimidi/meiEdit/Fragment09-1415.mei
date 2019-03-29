@@ -28,8 +28,8 @@
                                 <staffGrp xml:id="staffgrp-0000001483578543" symbol="brace" bar.thru="true">
                                     <staffDef xml:id="staffdef-0000000773492414" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="4" meter.unit="4" n="1" lines="5" />
                                     <staffDef xml:id="staffdef-0000000001365713" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" meter.count="4" meter.unit="4" n="2" lines="5" />
-                                    <label xml:id="label-0000001620867261">Piano</label>
-                                    <labelAbbr xml:id="labelAbbr-0000001885558925">Pno.</labelAbbr>
+                                    <!-- <label xml:id="label-0000001620867261">Piano</label>
+                                    <labelAbbr xml:id="labelAbbr-0000001885558925">Pno.</labelAbbr> -->
                                 </staffGrp>
                             </staffGrp>
                         </staffGrp>
@@ -1475,7 +1475,11 @@
                                 </layer>
                                 <layer xml:id="layer-0000001441853181" n="3">
                                     <rest xml:id="rest-0000001577381860" dur="2" />
+<<<<<<< HEAD
                                     <clef xml:id="clef-0000001312874219" shape="G" line="2" />
+=======
+                                      <clef xml:id="clef-0000001312874219" shape="G" line="2" />
+>>>>>>> master
                                     <chord xml:id="chord-0000001133780787" dur="2" stem.dir="up">
                                         <note xml:id="note-0000001339283678" oct="4" pname="e" color="#000000">
                                             <accid xml:id="accid-0000001240738774" accid="n" />
