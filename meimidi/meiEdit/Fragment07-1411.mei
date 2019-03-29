@@ -29,7 +29,7 @@
                                 <staffDef xml:id="staffdef-0000001101253694" clef.shape="F" clef.line="4" key.sig="0" meter.count="3" meter.unit="4" n="2" lines="5" />
                                 <label xml:id="label-0000001644111101">Piano</label>
                                 <labelAbbr xml:id="labelAbbr-0000000667050228">Pno.</labelAbbr>
-                                <instrDef xml:id="instrdef-0000001853771483" midi.channel="0" midi.instrnum="0" midi.volume="78.00%" />
+                                <instrDef xml:id="instrdef-0000001853771483" midi.channel="0" midi.instrnum="0" midi.volume="100.00%" />
                             </staffGrp>
                         </staffGrp>
                     </scoreDef>
@@ -61,7 +61,7 @@
                             <dir xml:id="dir-0000000255482111" place="above" staff="1" tstamp="1">
                                 <rend xml:id="rend-0000000102090862" fontfam="Plantin MT Std" fontweight="bold">Allegro</rend>
                             </dir>
-                            <tempo xml:id="tempo-0000002054897263" place="below" staff="1" startid="#mrest-0000001735696875" mm="132" mm.unit="4" />
+                            <tempo xml:id="tempo-0000002054897263" place="below" staff="1" startid="#mrest-0000001735696875" mm="126" mm.unit="4" />
                         </measure>
                         <measure xml:id="measure-0000001877890837" n="2">
                             <staff xml:id="staff-0000001941459083" n="1">
