@@ -389,27 +389,27 @@ font-family="Opus Std" font-size="128" font-weight="400" font-style="normal"
 <g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
 font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="564" y="815" font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="564" y="803" font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
  ></text>
 </g>
 
 <g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
 font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
 >
-<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="520" y="835" font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="520" y="823" font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
  ></text>
 </g>
 
 <g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="5" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
 font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
 >
-<polyline fill="none" vector-effect="none" points="3684,793 3684,843 " />
+<polyline fill="none" vector-effect="none" points="3684,781 3684,831 " />
 </g>
 
 <g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-dasharray="19,16" stroke-dashoffset="0" stroke-width="5" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
 font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
 >
-<polyline fill="none" vector-effect="none" points="610,795 3684,795 " />
+<polyline fill="none" vector-effect="none" points="610,783 3684,783 " />
 </g>
 
 <g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
@@ -417,19 +417,19 @@ font-family="Opus Special Std" font-size="128" font-weight="400" font-style="nor
 >
 </g>
 
-<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,828.425,224.668)"
+<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,1009.49,224.668)"
 font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
 >
 </g>
 
-<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,828.425,224.668)"
+<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,1009.49,224.668)"
 font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="0" y="110.078" font-family="Plantin MT Std" font-size="123" font-weight="400" font-style="normal" 
- >Fragment 14 - 1407.jpg</text>
+ >Fragment 14</text>
 </g>
 
-<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,828.425,224.668)"
+<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,1009.49,224.668)"
 font-family="Opus Special Std" font-size="128" font-weight="400" font-style="normal" 
 >
 </g>
@@ -2091,6 +2091,27 @@ font-family="Opus Std" font-size="128" font-weight="400" font-style="normal"
 >
 <text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="3062" y="1729" font-family="Opus Std" font-size="128" font-weight="400" font-style="normal" 
  ></text>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
+font-family="Opus Std" font-size="128" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="3185" y="1761" font-family="Opus Std" font-size="128" font-weight="400" font-style="normal" 
+ ></text>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
+font-family="Opus Std" font-size="128" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="3254" y="1761" font-family="Opus Std" font-size="128" font-weight="400" font-style="normal" 
+ ></text>
+</g>
+
+<g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
+font-family="Opus Std" font-size="128" font-weight="400" font-style="normal" 
+>
+<text fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="3323" y="1761" font-family="Opus Std" font-size="128" font-weight="400" font-style="normal" 
+ ></text>
 </g>
 
 <g fill="#000000" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="3" stroke-linecap="butt" stroke-linejoin="bevel" transform="matrix(0.620079,0,0,0.620079,0,0)"
