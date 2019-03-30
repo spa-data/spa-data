@@ -10,9 +10,8 @@ The __[Sketches](../sketches)__ page displays the MEI using the Verovio toolkit,
 
 __[MusicXML files](../meimidi/xml/Fragment02-1408a.xml)__
 
-__[MEI files](../meimidi/meiEdit/)__
+__[MEI files](../meimidi/meiEdit/Fragment02-1408a.mei)__
 
-__[Htm link](htm/musicxml.html)
 
 ---
 
