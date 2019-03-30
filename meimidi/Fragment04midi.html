@@ -17,6 +17,12 @@
         <script type="text/javascript" language="javascript" src="javascript/midi-player/midiplayer.js"></script>
         <link rel="stylesheet" href="css/midiplayer.css" />
 
+        <style>
+          p.ex1 {
+            margin-left: 40px;
+          }
+        </style>
+
     </head>
     <body style="margin: 0px;">
       <div id="fragTitle">
@@ -31,11 +37,15 @@
       }
       </script>
 
-<button class="button" onclick="goBack()">Back</button>
+      <div>
+      <p class="ex1">
+      <button class="button" onclick="goBack()">Back</button>
 
-<button class="button" onclick="play_midi()">
-  <b>Click to play</b>
-</button>
+      <button class="button" onclick="play_midi()">
+        <b>Click to play</b>
+      </button>
+      </div>
+
 
         <!-- A help overlay -->
         <!-- <div id="help_overlay">
