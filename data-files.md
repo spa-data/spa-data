@@ -12,6 +12,8 @@ __[MusicXML files](../meimidi/xml/Fragment02-1408a.xml)__
 
 __[MEI files](../meimidi/meiEdit/)__
 
+__[Htm link](../htm/musicxml.html)
+
 ---
 
 ## Correspondence
