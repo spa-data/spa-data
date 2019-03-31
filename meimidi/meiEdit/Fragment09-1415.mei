@@ -2019,6 +2019,9 @@
                                             <note xml:id="note-0000001347773358" oct="4" pname="a" color="#000000" />
                                         </chord>
                                     </beam>
+                                    <!-- DUMMY NOTE -->
+                                    <note dur="4" oct="4" pname="c" visible="false"/>
+
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000001034484699" n="2">
@@ -2028,7 +2031,11 @@
                                         <note xml:id="note-0000000780217744" oct="2" pname="g" color="#000000" accid.ges="f" />
                                     </chord>
                                 </layer>
-                                <layer xml:id="layer-0000000923498294" n="1" />
+                                <layer xml:id="layer-0000000923498294" n="1">
+
+
+
+                                </layer>
                             </staff>
                         </measure>
                     </section>
