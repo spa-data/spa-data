@@ -7,11 +7,11 @@ permalink: /sketches/
 
 #### Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displayed with [Verovio](https://www.verovio.org/index.xhtml)
 
+* <a href="../meimidi/Fragment01midi.html">__Fragment 1__</a>
+
 * <a href="../meimidi/Fragment02midi.html">Fragment 2</a>
 
 * <a href="../meimidi/Fragment04midi.html">Fragment 4</a>
-
-* <a href="../meimidi/Fragment05midi.html">__Fragment 5__</a>
 
 * <a href="../meimidi/Fragment06midi.html">Fragment 6</a>
 
