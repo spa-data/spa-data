@@ -61,7 +61,7 @@
                                     </chord>
                                 </layer>
                             </staff>
-                            <tempo xml:id="tempo-0000000110291554" place="below" staff="1" startid="#note-0000002093817540" mm="120" mm.unit="4" />
+                            <tempo xml:id="tempo-0000000110291554" place="below" staff="1" startid="#note-0000002093817540" mm="128" mm.unit="4" />
                         </measure>
                         <measure xml:id="measure-0000001999088373" n="2">
                             <staff xml:id="staff-0000000141212084" n="1">
