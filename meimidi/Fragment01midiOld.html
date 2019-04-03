@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Prokofiev Fragment 2 -- 1408.jpg</title>
+        <title>Prokofiev Fragment 1 -- 1438.jpg</title>
         <link rel="stylesheet" href="css/MEImidi.css" />
         <script src="https://www.verovio.org/javascript/develop/verovio-toolkit.js" type="text/javascript" ></script>
         <!-- We also use jQuery -->
@@ -17,18 +17,18 @@
         <script type="text/javascript" language="javascript" src="javascript/midi-player/midiplayer.js"></script>
         <link rel="stylesheet" href="css/midiplayer.css" />
 
-        <style>
-          p.ex1 {
-            margin-left: 40px;
-          }
-        </style>
+      <style>
+        p.ex1 {
+          margin-left: 40px;
+        }
+      </style>
 
     </head>
     <body style="margin: 0px;">
       <div id="fragTitle">
         <H1>From the Notebooks of Serge Prokofiev</H1>
         <H2>Notebook 1: 1919-1920</H2>
-        <H2>Fragment 2 &ndash; 1408.jpg</H2>
+        <H2>Fragment 1 &ndash; 1438.jpg</H2>
       </div>
 
       <script>
@@ -36,84 +36,83 @@
         window.history.back();
       }
       </script>
+<div>
+  <p class="ex1">
+<button class="button" onclick="goBack()">Back</button>
 
-      <div>
-        <p class="ex1">
-      <button class="button" onclick="goBack()">Back</button>
-
-      <button class="button" onclick="play_midi()">
-        <b>Click to play</b>
-      </button>
-      </div>
+<button class="button" onclick="play_midi()">
+  <b>Click to play</b>
+</button>
+</div>
 
         <!-- A help overlay -->
         <!-- <div id="help_overlay">
-            <p>Press <b><strong>p</strong></b> to play</p> -->
-            <!-- <p>Press <b>'+'</b> or <b>'-'</b> to zoom in or out</p>
+            Press <b><strong>p</strong></b> to play
+            <p>Press <b>'+'</b> or <b>'-'</b> to zoom in or out</p>
             <p>Press <b>right</b> or <b>left</b> arrows to navigate the score</p>
-            <p>Press <b>ctrl + right</b> / <b>left</b> arrows to go to the beginning or the end</p> -->
-            <!-- <p>Resize the window to see the score adjusting to it</p> -->
+            <p>Press <b>ctrl + right</b> / <b>left</b> arrows to go to the beginning or the end</p>
+            <p>Resize the window to see the score adjusting to it</p>
+            <p>Click on any note or in the player progress bar to jump in the piece</p>
+          </div> -->
 
-            <!-- <p>Click on any note or in the player progress bar to jump in the piece</p> -->
-        <!-- </div> -->
 
-        <!--//////////////////////////////////////////////////////-->
-        <!-- The div where we are going to insert the MIDI Player -->
-        <!--//////////////////////////////////////////////////////-->
-        <div style="height: 30px;">
-            <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
-        </div>
+          <!--//////////////////////////////////////////////////////-->
+          <!-- The div where we are going to insert the MIDI Player -->
+          <!--//////////////////////////////////////////////////////-->
+          <div style="height: 30px;">
+              <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
+          </div>
 
-        <!-- The div where we are going to insert the SVG -->
-        <div id="svg_output" style="margin-left:30px" />
+          <!-- The div where we are going to insert the SVG -->
+          <div id="svg_output" style="margin-left:30px" />
 
-        <script type="text/javascript">
-            var vrvToolkit = new verovio.toolkit();
-            var page = 1;
-            var zoom = 50;
-            var pageHeight = 2970;
-            var pageWidth = 2100;
+          <script type="text/javascript">
+              var vrvToolkit = new verovio.toolkit();
+              var page = 1;
+              var zoom = 50;
+              var pageHeight = 2970;
+              var pageWidth = 2100;
 
-            ////////////////////////////////////////////////
-            /* A variable for storing the highlighted ids */
-            ////////////////////////////////////////////////
-            var ids = [];
-            var isPlaying = false;
+              ////////////////////////////////////////////////
+              /* A variable for storing the highlighted ids */
+              ////////////////////////////////////////////////
+              var ids = [];
+              var isPlaying = false;
 
-            function setOptions() {
-                pageHeight = $(document).height() * 100 / zoom ;
-                pageWidth = $(document).width() * 90 / zoom ;
-                options = {
-                            pageHeight: pageHeight,
-                            pageWidth: pageWidth,
-                            scale: zoom,
-                            adjustPageHeight: true
-                        };
-                vrvToolkit.setOptions(options);
-            }
+              function setOptions() {
+                  pageHeight = $(document).height() * 100 / zoom ;
+                  pageWidth = $(document).width() * 90 / zoom ;
+                  options = {
+                              pageHeight: pageHeight,
+                              pageWidth: pageWidth,
+                              scale: zoom,
+                              adjustPageHeight: true
+                          };
+                  vrvToolkit.setOptions(options);
+              }
 
-            function loadData(data) {
-                setOptions();
-                vrvToolkit.loadData(data);
+              function loadData(data) {
+                  setOptions();
+                  vrvToolkit.loadData(data);
 
-                page = 1;
-                loadPage();
-            }
+                  page = 1;
+                  loadPage();
+              }
 
-            function loadPage() {
-                svg = vrvToolkit.renderToSVG(page, {});
-                $("#svg_output").html(svg);
+              function loadPage() {
+                  svg = vrvToolkit.renderToSVG(page, {});
+                  $("#svg_output").html(svg);
 
-                ////////////////////////////////////////
-                /* Bind a on click event to each note */
-                ////////////////////////////////////////
-                $(".note").click(function() {
-                    var id = $(this).attr("id");
-                    var time = vrvToolkit.getTimeForElement(id);
-                    $("#midi-player").midiPlayer.seek(time);
-                });
-            };
-
+                  ////////////////////////////////////////
+                  /* Bind a on click event to each note */
+                  ////////////////////////////////////////
+                  $(".note").click(function() {
+                      var id = $(this).attr("id");
+                      var time = vrvToolkit.getTimeForElement(id);
+                      $("#midi-player").midiPlayer.seek(time);
+                  });
+              };
+              
             function loadFile() {
                 file = "meiEdit/Fragment01-1438.mei";
                 $.ajax({
@@ -199,5 +198,7 @@
                 loadFile();
             });
         </script>
+
+
     </body>
 </html>
