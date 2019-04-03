@@ -46,7 +46,7 @@
         <b>Click to play</b>
       </button>
       </div>
-      
+
 
 
         <!-- A help overlay -->
@@ -67,7 +67,7 @@
         </div>
 
         <!-- The div where we are going to insert the SVG -->
-        <div id="svg_output"/>
+        <div id="svg_output" style="margin-left:30px" />
 
         <script type="text/javascript">
             var vrvToolkit = new verovio.toolkit();
@@ -84,7 +84,7 @@
 
             function setOptions() {
                 pageHeight = $(document).height() * 100 / zoom ;
-                pageWidth = $(document).width() * 100 / zoom ;
+                pageWidth = $(document).width() * 90 / zoom ;
                 options = {
                             pageHeight: pageHeight,
                             pageWidth: pageWidth,
