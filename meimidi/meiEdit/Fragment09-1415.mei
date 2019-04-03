@@ -108,7 +108,7 @@
                                 </layer>
                             </staff>
                             <dynam xml:id="dynam-0000001107136602" staff="1" startid="#chord-0000001845526910">p</dynam>
-                            <tempo  staff="1"  mm="178" mm.unit="4"></tempo>
+                            <tempo  staff="1"  mm="164" mm.unit="4"></tempo>
 
                             <dir xml:id="dir-0000002093757124" staff="1" startid="#chord-0000000676535479" place="above">
                                 <rend xml:id="rend-0000001783196770" fontfam="Geeza Pro" fontstyle="italic" fontweight="normal" >4 раза</rend>
@@ -2026,6 +2026,7 @@
                                     </beam>
                                     <!-- DUMMY NOTE -->
                                     <note dur="4" oct="4" pname="c" visible="false"/>
+                                    <note dur="4" oct="4" pname="c" visible="false"/>
 
                                 </layer>
                             </staff>
@@ -2035,6 +2036,10 @@
                                         <note xml:id="note-0000001336248792" oct="2" pname="e" color="#000000" accid.ges="f" />
                                         <note xml:id="note-0000000780217744" oct="2" pname="g" color="#000000" accid.ges="f" />
                                     </chord>
+                                    <!-- DUMMY NOTE -->
+                                    <!-- <note dur="4" oct="4" pname="c" visible="false"/> -->
+                                    <!-- <note dur="4" oct="4" pname="c" visible="false"/> -->
+
                                 </layer>
                                 <layer xml:id="layer-0000000923498294" n="1">
 
