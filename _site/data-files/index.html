@@ -13,7 +13,7 @@
 <meta property="og:url" content="http://localhost:4000/data-files/" />
 <meta property="og:site_name" content="Serge Prokofiev Archive as Data" />
 <script type="application/ld+json">
-{"headline":"Data Files","@type":"WebPage","url":"http://localhost:4000/data-files/","description":"Visualizations and data files drawn the from Serge Prokofiev Archive finding aid.","@context":"http://schema.org"}</script>
+{"description":"Visualizations and data files drawn the from Serge Prokofiev Archive finding aid.","@type":"WebPage","url":"http://localhost:4000/data-files/","headline":"Data Files","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Serge Prokofiev Archive as Data" /></head>
 <body><header class="site-header" role="banner">
@@ -40,34 +40,44 @@
   </header>
 
   <div class="post-content">
-    <h3 id="data-files-from-the-serge-prokofiev-archive">Data files from the Serge Prokofiev Archive</h3>
+    <h2 id="prokofievs-sketchbooks">Prokofiev’s Sketchbooks</h2>
+
+<p>These files contain machine-readable transcriptions of musical fragments from Prokofiev’s sketchbooks. Samples from each notebooks have been made <strong><a href="../sketches">available here</a></strong>. Sketches were first transcribed using standard music notation software (Sibelius and Musescore), then exported as <strong><a href="https://www.musicxml.com/">MusicXML</a></strong> files. The MusicXML files were converted to <strong><a href="https://music-encoding.org/">MEI</a></strong> using <strong><a href="https://www.verovio.org/index.xhtml">Verovio’s</a></strong> MusicXML to MEI converter. The transcriptions were also exported to SVG files for display.
+The <strong><a href="../sketches">Sketches</a></strong> page displays the MEI using the Verovio toolkit, which also converts the MEI to a MIDI stream playable in the web browser.</p>
+
+<p><strong><a href="https://github.com/spa-data/spa-data/tree/master/meimidi/xml">MusicXML files</a></strong></p>
+
+<p><strong><a href="https://github.com/spa-data/spa-data/tree/master/meimidi/meiEdit">MEI files</a></strong></p>
+
+<hr />
+
+<h2 id="correspondence">Correspondence</h2>
 
 <p>This <strong>XML</strong> file contains the entire set of records in <em>Series 2.1: Personal Correspondence</em> formatted according to Columbia University Libraries’ <a href="https://www.loc.gov/rr/ead/">Encoded Archival Description</a> (EAD) standard for finding aids.</p>
 
 <p><a href="../textfiles/xml/Series2.1.xml"><strong>Series 2.1: Personal Correspondence</strong></a></p>
 
+<p>The following files are in <strong>CSV</strong> format and have been extracted from the <strong><a href="http://arcg.is/vOTC8">SPA Correspondence Sites</a></strong> project.</p>
+
+<h5 id="each-file-is-a-data-transfer-from-one-of-the-four-map-layers-and-contains-the-latitude-and-longitude-for-the-plotted-locations-nb-latitude-and-longitude-are-given-as-xy-coordinates-so-the-x-column-contains-longitude-and-the-y-column-contains-latitude">Each file is a data transfer from one of the four map layers and contains the latitude and longitude for the plotted locations. (NB: Latitude and longitude are given as XY coordinates, so the ‘x’ column contains <em>longitude</em> and the ‘y’ column contains <em>latitude</em>.)</h5>
+
+<h4 id="prokofievs-outbox">Prokofiev’s Outbox</h4>
+<h5 id="correspondence-sent-by-prokofiev">Correspondence sent by Prokofiev</h5>
+
+<ul>
+  <li><strong>Prokofiev’s location (<a href="../textfiles/csv/ProkSenderProkAddress.csv">ProkSenderProkAddress.csv</a>)</strong></li>
+  <li><strong>Recipient’s location (<a href="../textfiles/csv/ProkSenderRecipientAddress.csv">ProkSenderRecipientAddress.csv</a>)</strong></li>
+</ul>
+
+<h4 id="prokofievs-inbox">Prokofiev’s Inbox</h4>
+<h5 id="correspondence-received-by-prokofiev">Correspondence received by Prokofiev</h5>
+
+<ul>
+  <li><strong>Prokofiev’s location (<a href="../textfiles/csv/ProkRecipientProkAddress.csv">ProkRecipientProkAddress.csv</a>)</strong></li>
+  <li><strong>Sender’s location (<a href="../textfiles/csv/ProkRecipientSenderAddress.csv">ProkRecipientSenderAddress.csv</a>)</strong></li>
+</ul>
+
 <hr />
-
-<p><br />
-The following files are in <strong>CSV</strong> format and have been extracted from the <strong><a href="http://arcg.is/vOTC8">SPA Correspondence Sites</a></strong> project.</p>
-
-<p>Each file is a data transfer from one of the four map layers and contains the latitude and longitude for the plotted locations.</p>
-
-<p>NB: Latitude and longitude are given as XY coordinates, so the ‘x’ column contains <em>longitude</em> and the ‘y’ column contains <em>latitude</em>.</p>
-
-<h3 id="prokofievs-outbox">Prokofiev’s Outbox</h3>
-<h4 id="correspondence-sent-by-prokofiev">Correspondence sent by Prokofiev</h4>
-
-<p><strong>Prokofiev’s location (<a href="../textfiles/csv/ProkSenderProkAddress.csv">ProkSenderProkAddress.csv</a>)</strong></p>
-
-<p><strong>Recipient’s location (<a href="../textfiles/csv/ProkSenderRecipientAddress.csv">ProkSenderRecipientAddress.csv</a>)</strong></p>
-
-<h3 id="prokofievs-inbox">Prokofiev’s Inbox</h3>
-<h4 id="correspondence-received-by-prokofiev">Correspondence received by Prokofiev</h4>
-
-<p><strong>Prokofiev’s location (<a href="../textfiles/csv/ProkRecipientProkAddress.csv">ProkRecipientProkAddress.csv</a>)</strong></p>
-
-<p><strong>Sender’s location (<a href="../textfiles/csv/ProkRecipientSenderAddress.csv">ProkRecipientSenderAddress.csv</a>)</strong></p>
 
   </div>
 

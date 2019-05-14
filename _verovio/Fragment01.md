@@ -1,49 +1,43 @@
+---
+name: Fragment01
+layout: fragment
+permalink: /_verovio/fragment01/
+filename: "Fragment01-1438.mei"
+
+---
 <html>
-    <head>
-        <title>Prokofiev Fragment 7 -- 1411.jpg</title>
-        <link rel="stylesheet" href="css/MEImidi.css" />
-        <script src="https://www.verovio.org/javascript/develop/verovio-toolkit.js" type="text/javascript" ></script>
-         <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" ></script>
-        <!-- Basic events from example 02 -->
-        <script src="javascript/basic-events.js" type="text/javascript" ></script>
-        <!-- A stylesheet for the help overlay -->
-        <link rel="stylesheet" href="css/tutorial.css" />
 
-        <!--/////////////-->
-        <!-- MIDI Player -->
-        <!--/////////////-->
-        <script type="text/javascript" language="javascript" src="javascript/midi-player/wildwebmidi.js"></script>
-        <script type="text/javascript" language="javascript" src="javascript/midi-player/midiplayer.js"></script>
-        <link rel="stylesheet" href="css/midiplayer.css" />
+<head>
+    <title>Prokofiev Fragment 1 -- 1438.jpg</title>
+    <link rel="stylesheet" href="css/MEImidi.css" />
+    <script src="https://www.verovio.org/javascript/develop/verovio-toolkit.js" type="text/javascript" ></script>
+    <!-- We also use jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" ></script>
+    <!-- Basic events from example 02 -->
+    <script src="javascript/basic-events.js" type="text/javascript" ></script>
+    <!-- A stylesheet for the help overlay -->
+    <link rel="stylesheet" href="css/tutorial.css" />
 
-        <style>
-          p.ex1 {
-            margin-left: 40px;
-          }
-        </style>
+    <!--/////////////-->
+    <!-- MIDI Player -->
+    <!--/////////////-->
+    <script type="text/javascript" language="javascript" src="javascript/midi-player/wildwebmidi.js"></script>
+    <script type="text/javascript" language="javascript" src="javascript/midi-player/midiplayer.js"></script>
+    <link rel="stylesheet" href="css/midiplayer.css" />
 
-        <style>
-        img {
-          float: right;
-          margin-right: 110px;
-        }
-        </style>
+    <style>
+      p.ex1 {
+        margin-left: 40px;
+      }
+    </style>
 
-    </head>
-    <body style="margin: 0px;">
+</head>
+
       <div id="fragTitle">
-
-
         <H1>From the Notebooks of Serge Prokofiev</H1>
-
-        <p class="ex1">
-        <img src="img/IMG_1411.jpg" style="width:400px;height:300;" />
-        </p>
-
         <H2>Notebook 1: 1919-1920</H2>
-        <H2>Fragment 7 &ndash; 1411.jpg</H2>
+        <H2>Fragment 1 &ndash; 1438.jpg</H2>
       </div>
-
 
       <script>
       function goBack() {
@@ -60,17 +54,16 @@
       </button>
       </div>
 
-
-
         <!-- A help overlay -->
         <!-- <div id="help_overlay">
-            <p>Press <b><strong>p</strong></b> to play</p>
-            <p>Press <b>'+'</b> or <b>'-'</b> to zoom in or out</p>
+            <p>Press <b><strong>p</strong></b> to play</p> -->
+            <!-- <p>Press <b>'+'</b> or <b>'-'</b> to zoom in or out</p>
             <p>Press <b>right</b> or <b>left</b> arrows to navigate the score</p>
-            <p>Press <b>ctrl + right</b> / <b>left</b> arrows to go to the beginning or the end</p>
-            <p>Resize the window to see the score adjusting to it</p>
-            <p>Click on any note or in the player progress bar to jump in the piece</p>
-        </div> -->
+            <p>Press <b>ctrl + right</b> / <b>left</b> arrows to go to the beginning or the end</p> -->
+            <!-- <p>Resize the window to see the score adjusting to it</p> -->
+
+            <!-- <p>Click on any note or in the player progress bar to jump in the piece</p> -->
+        <!-- </div> -->
 
         <!--//////////////////////////////////////////////////////-->
         <!-- The div where we are going to insert the MIDI Player -->
@@ -85,12 +78,12 @@
         <script type="text/javascript">
             var vrvToolkit = new verovio.toolkit();
             var page = 1;
-            var zoom = 45;
+            var zoom = 50;
             var pageHeight = 2970;
             var pageWidth = 2100;
 
             ////////////////////////////////////////////////
-            /* A variable for storing the highlighted ids */
+            / A variable for storing the highlighted ids /
             ////////////////////////////////////////////////
             var ids = [];
             var isPlaying = false;
@@ -120,7 +113,7 @@
                 $("#svg_output").html(svg);
 
                 ////////////////////////////////////////
-                /* Bind a on click event to each note */
+                / Bind a on click event to each note /
                 ////////////////////////////////////////
                 $(".note").click(function() {
                     var id = $(this).attr("id");
@@ -130,7 +123,7 @@
             };
 
             function loadFile() {
-                file = "meiEdit/Fragment07-1411.mei";
+                file = "../meiEdit/Fragment01-1438.mei";
                 $.ajax({
                     url: file
                     , dataType: "text"
@@ -141,7 +134,7 @@
             }
 
             ////////////////////////////////////////////
-            /* A function that start playing the file */
+            / A function that start playing the file /
             ////////////////////////////////////////////
             function play_midi() {
                 if (isPlaying == false) {
@@ -154,7 +147,7 @@
             }
 
             //////////////////////////////////////////////////////
-            /* Two callback functions passed to the MIDI player */
+            / Two callback functions passed to the MIDI player /
             //////////////////////////////////////////////////////
             var midiUpdate = function(time) {
                 // time needs to - 400 for adjustment
@@ -193,7 +186,7 @@
 
                 $(window).keyup(function(event){
                     ////////////////////////////////
-                    /* Key events 'p' for playing */
+                    / Key events 'p' for playing /
                     ////////////////////////////////
                     if (event.keyCode == 80) {
                         play_midi();
@@ -214,5 +207,4 @@
                 loadFile();
             });
         </script>
-    </body>
 </html>

@@ -7,6 +7,20 @@ permalink: /sketches/
 
 #### Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displayed with [Verovio](https://www.verovio.org/index.xhtml)
 
+
+<p>Verovio Collection</p>
+<ul>
+  {% for item in site.verovio %}
+    <li>
+      <h2>{{ item.name }}</h2>
+      <h3>{{ item.filename}}</h3>
+      <a href src="../../meimidi/Fragment01midi.html">XXXX</a>
+    </li>
+  {% endfor %}
+  </ul>
+
+
+
 * <a href="../meimidi/Fragment01midi.html">__Fragment 1__</a>
 
 * <a href="../meimidi/Fragment02midi.html">__Fragment 2__</a>
