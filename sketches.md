@@ -3,7 +3,7 @@ layout: page
 title: Sketches
 permalink: /sketches/
 ---
-### Sample displays of musical ideas from Prokofiev's notebooks.
+### Sample displays of musical ideas from Prokofiev's notebooks
 
 #### Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displayed with [Verovio](https://www.verovio.org/index.xhtml)
 
