@@ -1,5 +1,5 @@
 ---
-name: Fragment04
+name: "Fragment 4"
 layout: fragment
 permalink: /_verovio/fragment04/
 filename: "Fragment04-1448.mei"
@@ -97,7 +97,7 @@ filename: "Fragment04-1448.mei"
             };
 
             function loadFile() {
-                file = "../meiEdit/Fragment04-1448.mei";
+                file = "../meiEdit/Fragment01-1438.mei";
                 $.ajax({
                     url: file
                     , dataType: "text"

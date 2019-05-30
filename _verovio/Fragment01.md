@@ -1,5 +1,5 @@
 ---
-name: Fragment01
+name: "Fragment 1"
 layout: fragment
 permalink: /_verovio/fragment01/
 filename: "Fragment01-1438.mei"
