@@ -7,6 +7,7 @@ permalink: /sketches/
 
 #### Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displayed with [Verovio](https://www.verovio.org/index.xhtml)
 
+#### (MEI and MusicXML files [available here](../data-files))
 
 <p>Verovio Collection</p>
 <ul>
