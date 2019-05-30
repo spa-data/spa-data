@@ -14,7 +14,7 @@ permalink: /sketches/
     <li>
       <h2>{{ item.name }}</h2>
       <h3>{{ item.filename}}</h3>
-      <a href src="../../meimidi/Fragment01midi.html">XXXX</a>
+      <a href src="">XXXX</a>
     </li>
   {% endfor %}
   </ul>
