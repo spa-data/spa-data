@@ -2,16 +2,11 @@
 name: "Fragment 4"
 layout: fragment
 permalink: /_verovio/fragment04/
-filename: "Fragment04-1448.mei"
-
+filename: "Fragment04midi.html"
+meifile: "Fragment01-1448.mei"
+shortname: "Fragment04"
+imgfile: 1448.jpg
 ---
-
-
-      <div id="fragTitle">
-        <H1>From the Notebooks of Serge Prokofiev</H1>
-        <H2>Notebook 1: 1919-1920</H2>
-        <H2>Fragment 1 &ndash; 1438.jpg</H2>
-      </div>
 
       <script>
       function goBack() {

@@ -1,11 +1,24 @@
 ---
 layout: default
 ---
+<head>
+</head>
+
+<body>
+  <H2>Prok Frag: {{ page.name }}</H2>
+
+<div id="fragTitle">
+  <H1>From the Notebooks of Serge Prokofiev</H1>
+  <H2>Notebook 1: 1919-1920</H2>
+  <H2>Image: {{ page.imgfile }}</H2>
+</div>
 
 <div class="fragment">
 {{ content }}
-
-
 </div>
 
-<!-- {% include player.html %} -->
+<div class="midiplayer">
+  {% include player.html %}
+</div>
+
+</body>

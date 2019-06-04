@@ -2,7 +2,10 @@
 name: "Fragment 1"
 layout: fragment
 permalink: /_verovio/fragment01/
-filename: "Fragment01-1438.mei"
+filename: "Fragment01midi.html"
+meifile: "Fragment01-1438.mei"
+shortname: Fragment01
+imgfile: 1438.jpg
 
 ---
 <html>
@@ -33,11 +36,6 @@ filename: "Fragment01-1438.mei"
 
 </head>
 
-      <div id="fragTitle">
-        <H1>From the Notebooks of Serge Prokofiev</H1>
-        <H2>Notebook 1: 1919-1920</H2>
-        <H2>Fragment 1 &ndash; 1438.jpg</H2>
-      </div>
 
       <script>
       function goBack() {
@@ -52,7 +50,7 @@ filename: "Fragment01-1438.mei"
       <button class="button" onclick="play_midi()">
         <b>Click to play</b>
       </button>
-      </div>
+      <!-- </div> -->
 
         <!-- A help overlay -->
         <!-- <div id="help_overlay">
@@ -207,4 +205,4 @@ filename: "Fragment01-1438.mei"
                 loadFile();
             });
         </script>
-</html>
+        <p>file: Fragment01.md</p>
