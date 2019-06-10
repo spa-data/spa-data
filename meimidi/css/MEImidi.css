@@ -20,6 +20,7 @@ button {
   cursor: pointer;
 }
 
+
 #help_overlay {
     position: fixed;
     bottom: 10px;
