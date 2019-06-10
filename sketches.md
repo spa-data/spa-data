@@ -14,19 +14,15 @@ permalink: /sketches/
   {% for item in site.verovio %}
     <li>
       <h4><a href="/_verovio/{{ item.shortname }}/">{{ item.name }}</a></h4>
-
-      <p>filename: {{ item.filename }}</p>
-      <p>meifile: {{ item.meifile }}</p>
     </li>
   {% endfor %}
   </ul>
 
-Markdown liquid 'link':
+<!-- Markdown liquid 'link':
 
-  [Link to a document]({% link _verovio/Fragment01.md %})
+  [Link to a document]({% link _verovio/Fragment01.md %}) -->
 
 Direct links to html files:
-
 
 * <a href="../meimidi/Fragment01midi.html">__Fragment 1__</a>
 

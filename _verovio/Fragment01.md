@@ -121,7 +121,7 @@ imgfile: 1438.jpg
             };
 
             function loadFile() {
-                file = "../meiEdit/Fragment01-1438.mei";
+                file = "/meimidi/meiEdit/Fragment01-1438.mei";
                 $.ajax({
                     url: file
                     , dataType: "text"
@@ -206,3 +206,4 @@ imgfile: 1438.jpg
             });
         </script>
         <p>file: Fragment01.md</p>
+      Liquid name:  {{ page.name }}

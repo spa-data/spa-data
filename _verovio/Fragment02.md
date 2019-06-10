@@ -8,6 +8,34 @@ shortname: "Fragment02"
 imgfile: 1408a.jpg
 
 ---
+<html>
+
+<head>
+    <title>Prokofiev Fragment 2 -- 1408a.jpg</title>
+    <link rel="stylesheet" href="css/MEImidi.css" />
+    <script src="https://www.verovio.org/javascript/develop/verovio-toolkit.js" type="text/javascript" ></script>
+    <!-- We also use jQuery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" ></script>
+    <!-- Basic events from example 02 -->
+    <script src="javascript/basic-events.js" type="text/javascript" ></script>
+    <!-- A stylesheet for the help overlay -->
+    <link rel="stylesheet" href="css/tutorial.css" />
+
+    <!--/////////////-->
+    <!-- MIDI Player -->
+    <!--/////////////-->
+    <script type="text/javascript" language="javascript" src="javascript/midi-player/wildwebmidi.js"></script>
+    <script type="text/javascript" language="javascript" src="javascript/midi-player/midiplayer.js"></script>
+    <link rel="stylesheet" href="css/midiplayer.css" />
+
+    <style>
+      p.ex1 {
+        margin-left: 40px;
+      }
+    </style>
+
+</head>
+
 
       <script>
       function goBack() {
@@ -22,7 +50,7 @@ imgfile: 1408a.jpg
       <button class="button" onclick="play_midi()">
         <b>Click to play</b>
       </button>
-      </div>
+      <!-- </div> -->
 
         <!-- A help overlay -->
         <!-- <div id="help_overlay">
@@ -177,3 +205,4 @@ imgfile: 1408a.jpg
                 loadFile();
             });
         </script>
+        <p>file: Fragment02.md</p>
