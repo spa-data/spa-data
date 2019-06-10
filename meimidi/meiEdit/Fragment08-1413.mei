@@ -28,8 +28,8 @@
                                 <staffGrp xml:id="staffgrp-0000001016261621" symbol="brace" bar.thru="true">
                                     <staffDef xml:id="staffdef-0000001600014231" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="6" meter.unit="8" n="1" lines="5" />
                                     <staffDef xml:id="staffdef-0000001603636535" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" meter.count="6" meter.unit="8" n="2" lines="5" />
-                                    <label xml:id="label-0000001953656699">Piano</label>
-                                    <labelAbbr xml:id="labelAbbr-0000002029945320">Pno.</labelAbbr>
+                                    <!-- <label xml:id="label-0000001953656699">Piano</label>
+                                    <labelAbbr xml:id="labelAbbr-0000002029945320">Pno.</labelAbbr> -->
                                 </staffGrp>
                             </staffGrp>
                         </staffGrp>
