@@ -36,7 +36,7 @@ imgfile: 1438.jpg
 
 </head>
 
-<img src="img/IMG_1448.jpg">
+<img src="../IMG_1438.jpg" alt="frag1">
 
       <script>
       function goBack() {
