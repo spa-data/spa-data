@@ -36,7 +36,9 @@ imgfile: 1438.jpg
 
 </head>
 
-<img src="../IMG_1438.jpg" alt="frag1">
+<H2>{{ page.name }}</H2>
+
+<img src="../../img/IMG_1438.jpg" alt="IMG_1438 : Fragment 1">
 
       <script>
       function goBack() {
