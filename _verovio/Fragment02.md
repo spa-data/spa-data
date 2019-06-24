@@ -37,6 +37,11 @@ imgfile: 1408a.jpg
 </head>
 
 
+
+<H1>{{ page.name }}</H1>
+<img src="img_1405e.jpg">
+xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
       <script>
       function goBack() {
         window.history.back();

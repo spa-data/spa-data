@@ -205,5 +205,5 @@ imgfile: 1438.jpg
                 loadFile();
             });
         </script>
-        <p>file: Fragment01.md</p>
+        <p>permalink: {{ page.permalink }}</p>
       Liquid name:  {{ page.name }}
