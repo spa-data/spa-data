@@ -36,6 +36,7 @@ imgfile: 1438.jpg
 
 </head>
 
+<img src="img/IMG_1448.jpg">
 
       <script>
       function goBack() {
