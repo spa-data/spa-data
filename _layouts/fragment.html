@@ -37,7 +37,7 @@ function goBack() {
 <div id="fragTitle">
   <H1>From the Notebooks of Serge Prokofiev</H1>
   <H2>Notebook 1: 1919-1920</H2>
-  <H2>Prok Frag: {{ page.name }}</H2>
+  <H2>{{ page.name }}</H2>
 </div>
 
 
@@ -86,8 +86,8 @@ function goBack() {
     var isPlaying = false;
 
     function setOptions() {
-        pageHeight = $(document).height() * 100 / zoom ;
-        pageWidth = $(document).width() * 90 / zoom ;
+        pageHeight = $(document).height() * 80 / zoom ;
+        pageWidth = $(document).width() * 70 / zoom ;
         options = {
                     pageHeight: pageHeight,
                     pageWidth: pageWidth,
