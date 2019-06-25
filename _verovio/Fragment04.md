@@ -1,9 +1,9 @@
 ---
 name: "Fragment 4"
 layout: fragment
-permalink: /_verovio/fragment04/
-filename: "Fragment04midi.html"
-meifile: "Fragment04-1448.mei"
+permalink: /_verovio/fragment11/
+meifile: "Fragment04-1404.mei"
+notebook: "1"
 shortname: "Fragment04"
-imgfile: 1448.jpg
+imgfile: 1404.jpg
 ---
