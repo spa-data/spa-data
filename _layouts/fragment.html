@@ -44,21 +44,17 @@ function goBack() {
 <div id="fragImg">
   <img src="/meimidi/img/IMG_{{ page.imgfile }}"
   width="350" height="200"
-  alt="{{ page.name }} : {{ page.imgfile }}"
+  alt="{{ page.name }} : {{ page.imgfile }}">
 </div>
 <p/>
+<!-- The div where we are going to insert the SVG -->
+<div id="svg_output"></div>
 
 <div>
   <button class="button" onclick="goBack()">Back</button>
   <button class="button" onclick="play_midi()">
     <b>Click to play</b>
   </button>
-</div>
-
-
-
-<div class="fragment">
-{{ content }}
 </div>
 
 <!--//////////////////////////////////////////////////////-->
@@ -68,8 +64,13 @@ function goBack() {
     <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
 </div>
 
-<!-- The div where we are going to insert the SVG -->
-<div id="svg_output"  />
+<div class="fragment">
+{{ content }}
+</div>
+
+
+
+
 
 <script type="text/javascript">
     var vrvToolkit = new verovio.toolkit();
