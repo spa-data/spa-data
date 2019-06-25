@@ -23,14 +23,14 @@
             <mdiv xml:id="mdiv-0000001520086994">
                 <score xml:id="score-0000000105869000">
                     <scoreDef xml:id="scoredef-0000001024593222">
-                        <staffGrp xml:id="staffgrp-0000000200821003">
-                            <staffGrp xml:id="staffgrp-0000001519518473" symbol="brace">
+                        <!-- <staffGrp xml:id="staffgrp-0000000200821003">
+                            <staffGrp xml:id="staffgrp-0000001519518473" symbol="brace"> -->
                                 <staffGrp xml:id="staffgrp-0000001613918835" symbol="brace" bar.thru="true">
                                     <staffDef xml:id="staffdef-0000000600090400" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="4" meter.unit="4" n="1" lines="5" />
                                     <staffDef xml:id="staffdef-0000000877001076" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="4" meter.unit="4" n="2" lines="5" />
                                 </staffGrp>
-                            </staffGrp>
-                        </staffGrp>
+                            <!-- </staffGrp>
+                        </staffGrp> -->
                     </scoreDef>
                     <section xml:id="section-0000001532654398">
                         <pb xml:id="pb-0000001365480204" />

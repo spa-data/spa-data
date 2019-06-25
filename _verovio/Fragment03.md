@@ -5,5 +5,5 @@ permalink: /_verovio/fragment03/
 meifile: "Fragment03-1448.mei"
 notebook: "1"
 shortname: "Fragment03"
-imgfile: 1448.jpg
+imgfile: "1448"
 ---
