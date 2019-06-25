@@ -23,14 +23,14 @@
             <mdiv xml:id="mdiv-0000002020905668">
                 <score xml:id="score-0000001031112284">
                     <scoreDef xml:id="scoredef-0000000946251762">
-                        <staffGrp xml:id="staffgrp-0000001104827642">
-                            <staffGrp xml:id="staffgrp-0000001889135021" symbol="brace">
+                        <!-- <staffGrp xml:id="staffgrp-0000001104827642">
+                            <staffGrp xml:id="staffgrp-0000001889135021" symbol="brace"> -->
                                 <staffGrp xml:id="staffgrp-0000001417451888" symbol="brace" bar.thru="true">
                                     <staffDef xml:id="staffdef-0000001158603433" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="3" meter.unit="4" n="1" lines="5" />
                                     <staffDef xml:id="staffdef-0000000752624133" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="3" meter.unit="4" n="2" lines="5" />
                                 </staffGrp>
-                            </staffGrp>
-                        </staffGrp>
+                            <!-- </staffGrp>
+                        </staffGrp> -->
                     </scoreDef>
                     <section xml:id="section-0000000593745513">
                         <pb xml:id="pb-0000001547007479" />
@@ -196,7 +196,7 @@
                             <staff xml:id="staff-0000001038129916" n="1">
                                 <layer xml:id="layer-0000000456885772" n="1">
                                     <note xml:id="note-0000000632577018" dur="2" oct="6" pname="c" color="#000000" stem.dir="down" />
-                                    <note dur="4" pname="c" oct="4" visible="false"/>
+                                    <note dur="2" pname="c" oct="4" visible="false"/>
                                 </layer>
 
                             </staff>
