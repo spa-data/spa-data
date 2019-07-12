@@ -14,7 +14,8 @@ Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displa
 <ul>
   {% for item in site.verovio %}
     <li>
-      <h4><a href="{{ site.baseurl }}/_verovio/{{ item.shortname }}/">{{ item.name }}</a></h4>
-    </li>
+    <h3>{{ item.name }} - {{ item.imgfile }}</h3>
+    <p>
+      <a href="{{ site.baseurl }}/verovio/{{ item.shortname }}/">{{ item.name }}</a>
   {% endfor %}
 </ul>
