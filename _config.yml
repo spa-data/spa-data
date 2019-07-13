@@ -1,12 +1,4 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # # # #  If Site Does Not Load on GH-PAGES:  # # # #
 # # # #  CHECK BASEURL SETTING !!!           # # # #
@@ -47,18 +39,6 @@ collections:
     verovio:
       output: true
       permalink: /_verovio/:path/
-
-#Found the issue! If you're specifying output or permalink for a collection, you'll need to specify the collection itself as a hash and not part of an array.
-
-#So in your _config.yml, use this instead:
-
-#collections:
-#  projects:
-#    output: true
-#    permalink: /projects/:path/
-
-#https://github.com/jekyll/jekyll/issues/4097
-      # output: true
 
 
 # Exclude from processing.
