@@ -23,16 +23,21 @@
             <mdiv xml:id="mdiv-0000002073605314">
                 <score xml:id="score-0000000705427173">
                     <scoreDef xml:id="scoredef-0000000469237733">
+<<<<<<< HEAD
                         <staffGrp xml:id="staffgrp-0000000550617741">
                             <staffGrp xml:id="staffgrp-0000002136032735" symbol="brace">
+=======
+                        <!-- <staffGrp xml:id="staffgrp-0000000550617741">
+                            <staffGrp xml:id="staffgrp-0000002136032735" symbol="brace"> -->
+>>>>>>> gh-pages
                                 <staffGrp xml:id="staffgrp-0000002020667282" symbol="brace" bar.thru="true">
                                     <staffDef xml:id="staffdef-0000001022698710" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="3" meter.unit="4" n="1" lines="5" />
                                     <staffDef xml:id="staffdef-0000001987233350" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" meter.count="3" meter.unit="4" n="2" lines="5" />
                                     <!-- <label xml:id="label-0000001889835731">Piano</label>
                                     <labelAbbr xml:id="labelAbbr-0000000972288775">Pno.</labelAbbr> -->
                                 </staffGrp>
-                            </staffGrp>
-                        </staffGrp>
+                            <!-- </staffGrp>
+                        </staffGrp> -->
                     </scoreDef>
                     <section xml:id="section-0000000354009859">
                         <measure xml:id="measure-0000000757161201" n="1">

@@ -1,0 +1,13 @@
+<script type="text/javascript">
+  
+            function loadFile() {
+                file = "{{site.baseurl}}/meimidi/meiEdit/{{ page.meifile }}";
+                $.ajax({
+                    url: file
+                    , dataType: "text"
+                    , success: function(data) {
+                        loadData(data);
+                    }
+                });
+
+</script>

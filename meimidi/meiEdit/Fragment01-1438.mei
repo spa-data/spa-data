@@ -5,7 +5,11 @@
     <meiHead>
         <fileDesc>
             <titleStmt>
+<<<<<<< HEAD
                 <!-- <title>Fragment 5 - 1438.jpg</title> -->
+=======
+                <!-- <title>Fragment 1 - 1438.jpg</title> -->
+>>>>>>> gh-pages
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
@@ -26,7 +30,11 @@
                         <!-- <staffGrp xml:id="staffgrp-0000001468912481"> -->
                             <!-- <staffGrp xml:id="staffgrp-0000001262632355" symbol="brace"> -->
                                 <staffGrp xml:id="staffgrp-0000001890583844" symbol="brace" bar.thru="true">
+<<<<<<< HEAD
   <!-- HOW to DUMP Label?     <label xml:id="label-0000001754779756" visible="false">Piano</label>
+=======
+                            <!--  <label xml:id="label-0000001754779756" visible="false">Piano</label>
+>>>>>>> gh-pages
                                   <labelAbbr xml:id="labelAbbr-0000001699858000"></labelAbbr> -->
                                     <staffDef xml:id="staffdef-0000000404258777" clef.shape="G" clef.line="2" key.mode="major" key.sig="0" meter.count="4" meter.unit="4" n="1" lines="5" />
                                     <staffDef xml:id="staffdef-0000001791142077" clef.shape="F" clef.line="4" key.mode="major" key.sig="0" meter.count="4" meter.unit="4" n="2" lines="5" />

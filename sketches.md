@@ -3,6 +3,7 @@ layout: page
 title: Sketches
 permalink: /sketches/
 ---
+<<<<<<< HEAD
 ### Sample displays of musical ideas from Prokofiev's notebooks
 
 #### Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displayed with [Verovio](https://www.verovio.org/index.xhtml)
@@ -28,3 +29,20 @@ permalink: /sketches/
 * <a href="../meimidi/Fragment14midi.html">__Fragment 14__</a>
 
 * <a href="../meimidi/Fragment15midi.html">__Fragment 15__</a>
+=======
+### Sample displays of musical ideas from Prokofiev's notebooks.
+
+Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displayed with [Verovio](https://www.verovio.org/index.xhtml)
+
+(MEI and MusicXML files [available here](../data-files))
+
+<!-- Verovio document collection -->
+
+<ul>
+  {% for item in site.verovio %}
+    <li>
+      <h4><a href="{{ site.baseurl }}/verovio/{{ item.shortname }}/">{{ item.name }}</a></h4>
+    </li>
+  {% endfor %}
+</ul>
+>>>>>>> gh-pages
