@@ -1,3 +1,5 @@
+---
+---
 var MidiModule = function(MidiModule) {
   MidiModule = MidiModule || {};
 
