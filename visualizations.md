@@ -3,7 +3,7 @@ layout: page
 title: Visualizations
 permalink: /visualizations/
 ---
-<H4>Examples of visualizations that can be made with data from the archive</H4>
+<H4>Examples of visualizations created with data from the archive</H4>
 
 _Interactive map:_ __[SPA Correspondence Sites](http://arcg.is/vOTC8)__
 <a href="http://arcg.is/1Xv1HL">
