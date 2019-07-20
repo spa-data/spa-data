@@ -3,7 +3,7 @@ layout: page
 title: Visualizations
 permalink: /visualizations/
 ---
-Examples of visualizations that can be made with data from the archive.
+<H4>Examples of visualizations that can be made with data from the archive</H4>
 
 _Interactive map:_ __[SPA Correspondence Sites](http://arcg.is/vOTC8)__
 <a href="http://arcg.is/1Xv1HL">
@@ -17,10 +17,3 @@ _Alluvial chart:_ Languages used in annotating archive manuscripts
  <a href="http://arcg.is/1Xv1HL"> <br><br>
 <a href="../img/alluvialEditShrp.jpg"><img src="../img/alluvial.jpg" style="width:800px;height:300;" title="alluvial chart" alt="alluvial chart">
 </a>
-
-
-<!--
-<a href="../img/ProkStamp.jpeg">
-<img src="../img/ProkStamp.jpeg"  title="Hi! It's me, Serge!" alt="stamp"/>
-</a>
--->
