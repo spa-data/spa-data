@@ -11,6 +11,12 @@ Playable transcriptions encoded in [MEI](https://music-encoding.org/) and displa
 
 <!-- Verovio document collection -->
 
+<!-- <table>
+{% tablerow  item in site.verovio cols:2 %}
+<a href="{{ site.baseurl }}/verovio/{{ item.shortname }}/">{{ item.name }}</a>
+{% endtablerow %}
+</table> -->
+
 <font size="+1">
 <ul>
   {% for item in site.verovio %}
