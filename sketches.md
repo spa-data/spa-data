@@ -19,12 +19,8 @@ MEI and MusicXML files available under __[Data Files](../data-files)__ tab
 {% endtablerow %}
 </table> -->
 
-<font size="+1">
-<ul>
-  {% for item in site.verovio %}
-    <li>
-      <a href="{{ site.baseurl }}/verovio/{{ item.shortname }}/">{{ item.name }}</a>
-    </li>
-  {% endfor %}
-</ul>
-</font>
+<table>
+{% tablerow  item in site.verovio cols:2 %}
+<a href="{{ site.baseurl }}/verovio/{{ item.shortname }}/">{{ item.name }}</a>
+{% endtablerow %}
+</table>
