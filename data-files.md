@@ -5,8 +5,10 @@ permalink: /data-files/
 ---
 ## Prokofiev's Sketchbooks
 
-These files contain machine-readable transcriptions of musical fragments from Prokofiev's sketchbooks. Samples from each notebooks have been made __[available here](../sketches)__. Sketches were first transcribed using standard music notation software (Sibelius and Musescore), then exported as __[MusicXML](https://www.musicxml.com/)__ files. The MusicXML files were converted to __[MEI](https://music-encoding.org/)__ using __[Verovio's](https://www.verovio.org/index.xhtml)__ MusicXML to MEI converter. The transcriptions were also exported to SVG files for display.
+These files contain machine-readable transcriptions of musical fragments from Prokofiev's sketchbooks. Sketches were first transcribed using standard music notation software (Sibelius and Musescore), then exported as __[MusicXML](https://www.musicxml.com/)__ files. The MusicXML files were converted to __[MEI](https://music-encoding.org/)__ using __[Verovio's](https://www.verovio.org/index.xhtml)__ MusicXML to MEI converter.
 The __[Sketches](../sketches)__ page displays the MEI using the Verovio toolkit, which also converts the MEI to a MIDI stream playable in the web browser.
+
+The __[Sketches](../sketches)__ page displays the MEI files as SVG images using the Verovio engraving toolkit, which also converts the MEI to a MIDI stream playable in the web browser.
 
 __[MusicXML files](https://github.com/spa-data/spa-data/tree/master/meimidi/xml)__
 
