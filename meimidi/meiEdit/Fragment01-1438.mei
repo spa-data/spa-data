@@ -2,12 +2,40 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+
+  <!-- contains extra, invisible <space> elements and non-displaying @visible=false <note> elements
+    at beginning and end of MEI to ensure midiplayer will function properly
+    (i.e., so it will not cut off or cut short first or last note)
+          Such notes have a comment element immediately preceding them
+          stating "nonPlayingMidiNote"-->
+
     <meiHead>
         <fileDesc>
             <titleStmt>
                 <!-- <title>Fragment 1 - 1438.jpg</title> -->
+                <respStmt>
+                  <persName>Mark Saccomano</persName>
+                    <resp>transcription and encoding</resp>
+                  </respStmt>
             </titleStmt>
-            <pubStmt></pubStmt>
+            <pubStmt>
+              <availability/>
+              <accessRestrict/>
+              <useRestrict/>
+            </pubStmt>
+            <notesStmt>
+               <annot>Sketches from Notebooks in Serge Prokofiev Archive.</annot>
+               <annot>SPA_052, SPA_053</annot>
+               <annot>Transcribed using Siblius, exported to MusicXML</annot>
+               <annot>MusicXML converted to MEI using Verovio online converter: https://www.verovio.org/musicxml.html</annot>
+               <annot>Transcribed, encoded, and edited for display by Mark Saccomano</annot>
+            <sourceDesc>
+              <source>
+                <head>Serge Prokofiev Archive</head>
+                <bibl>SPA_052, SPA_053</bible>
+              </source>
+            <sourceDesc>
+            </notesStmt>
         </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000000641374312">
             <appInfo xml:id="appinfo-0000001000944772">
@@ -42,8 +70,8 @@
                             <staff xml:id="staff-0000001061715152" n="1">
                                 <layer xml:id="layer-0000000105724338" n="1">
 
+                                  <!-- nonPlayingMidiNote -->
                                   <space dur="16" />
-
 
                                     <note xml:id="note-0000001736804119" dots="1" dur="4" oct="5" pname="c" color="#000000" stem.dir="up" />
                                     <beam xml:id="beam-0000000893149554">
@@ -59,8 +87,8 @@
                                 </layer>
                                 <layer xml:id="layer-0000000094914413" n="2">
 
+                                  <!-- nonPlayingMidiNote -->
                                   <space dur="16" />
-
 
                                     <chord xml:id="chord-0000001118599304" dots="1" dur="4" stem.dir="down">
                                         <note xml:id="note-0000000975306615" oct="4" pname="c" color="#000000" />
@@ -85,6 +113,7 @@
                             <staff xml:id="staff-0000000263976566" n="2">
                                 <layer xml:id="layer-0000000498697409" n="5">
 
+                                  <!-- nonPlayingMidiNote -->
                                   <space dur="16" />
 
                                     <chord xml:id="chord-0000001615998711" dots="1" dur="4" stem.dir="up">
