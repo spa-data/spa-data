@@ -11,5 +11,5 @@ This project is a collaboration between [Natlia Ermolaev](https://www.nataliaerm
 We started working on this project in Spring 2017. The main questions that motivated us were: What can archival researchers do with 19,000 records? How can scholars learn more about 20th-century musical culture from the Serge Prokofiev Archive ? Our project describes how we — as archivists and digital humanities researchers — sought an alternative way to explore this archive.
 
 
-We extracted information from XML records, and with the help of text processing and transformation tools (such as OpenRefine and XSLT) transformed the data into more flexible formats (such as CSV and JSON), which could then be poured into various data analysis platforms. We experimented with a series of digital mapping (ArcGIS, QGIS, Neatline), data visualization (Raw,
+We extracted information from XML records, and with the help of text processing and transformation tools (such as OpenRefine and XSLT), transformed the data into more flexible formats (such as CSV and JSON), which could then be poured into various data analysis platforms. We experimented with a series of digital mapping (ArcGIS, QGIS, Neatline), data visualization (Raw,
 Palladio), and digital storytelling tools (Story Maps).
