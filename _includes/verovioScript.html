@@ -1,132 +1,26 @@
-<script type="text/javascript">
-    var vrvToolkit = new verovio.toolkit();
-    var page = 1;
-    var zoom = 40;
-    var pageHeight = 2970;
-    var pageWidth = 2100;
+<script type="module">
+    import 'https://www.verovio.org/javascript/app/verovio-app.js';
 
-    ////////////////////////////////////////////////
-    /* A variable for storing the highlighted ids */
-    ////////////////////////////////////////////////
-    var ids = [];
-    var isPlaying = false;
+    // Create the app - here with an empty option object
+    const app = new Verovio.App(document.getElementById("svg_output"), {});
 
-    function setOptions() {
-        pageHeight = $(document).height() * 80 / zoom ;
-        pageWidth = $(document).width() * 70 / zoom ;
-        options = {
-                    pageHeight: pageHeight,
-                    pageWidth: pageWidth,
-                    scale: zoom,
-                    adjustPageHeight: true
-                };
-        vrvToolkit.setOptions(options);
-    }
-
-    function loadData(data) {
-        setOptions();
-        vrvToolkit.loadData(data);
-
-        page = 1;
-        loadPage();
-    }
-
-    function loadPage() {
-        svg = vrvToolkit.renderToSVG(page, {});
-        $("#svg_output").html(svg);
-
-        ////////////////////////////////////////
-        /* Bind a on click event to each note */
-        ////////////////////////////////////////
-        $(".note").click(function() {
-            var id = $(this).attr("id");
-            var time = vrvToolkit.getTimeForElement(id);
-            $("#midi-player").midiPlayer.seek(time);
+    // Load a file (MEI or MusicXML)
+    fetch("{{ site.baseurl }}/meimidi/meiEdit/{{ page.meifile }}")
+        .then(function(response) {
+            return response.text();
+        })
+        .then(function(text) {
+            app.loadData(text);
         });
-    };
 
-    function loadFile() {
-        file = "{{ site.baseurl }}/meimidi/meiEdit/{{ page.meifile }}";
-        $.ajax({
-            url: file
-            , dataType: "text"
-            , success: function(data) {
-                loadData(data);
-            }
-        });
-    }
-
-    ////////////////////////////////////////////
-    /* A function that start playing the file */
-    ////////////////////////////////////////////
-    function play_midi() {
-        if (isPlaying == false) {
-            var base64midi = vrvToolkit.renderToMIDI();
-            var song = 'data:audio/midi;base64,' + base64midi;
-            $("#player").show();
-            $("#player").midiPlayer.play(song);
-            isPlaying = true;
-        }
-    }
-
-    //////////////////////////////////////////////////////
-    /* Two callback functions passed to the MIDI player */
-    //////////////////////////////////////////////////////
-    var midiUpdate = function(time) {
-        // time needs to - 400 for adjustment
-        var vrvTime = Math.max(0, time - 400);
-        var elementsattime = vrvToolkit.getElementsAtTime(vrvTime);
-        if (elementsattime.page > 0) {
-            if (elementsattime.page != page) {
-                page = elementsattime.page;
-                loadPage();
-            }
-            if ((elementsattime.notes.length > 0) && (ids != elementsattime.notes)) {
-                ids.forEach(function(noteid) {
-                    if ($.inArray(noteid, elementsattime.notes) == -1) {
-                        $("#" + noteid).attr("fill", "#000").attr("stroke", "#000");
-                    }
-                });
-                ids = elementsattime.notes;
-                ids.forEach(function(noteid) {
-                    if ($.inArray(noteid, elementsattime.notes) != -1) {
-                        $("#" + noteid).attr("fill", "#c00").attr("stroke", "#c00");;
+            function loadFile() {
+                file = "{{ site.baseurl }}/meimidi/meiEdit/{{ page.meifile }}";
+                $.ajax({
+                    url: file
+                    , dataType: "text"
+                    , success: function(data) {
+                        loadData(data);
                     }
                 });
             }
-        }
-    }
-
-    var midiStop = function() {
-        ids.forEach(function(noteid) {
-            $("#" + noteid).attr("fill", "#000").attr("stroke", "#000");
-        });
-        $("#player").hide();
-        isPlaying = false;
-    }
-
-    $(document).ready(function() {
-
-        $(window).keyup(function(event){
-            ////////////////////////////////
-            /* Key events 'p' for playing */
-            ////////////////////////////////
-            if (event.keyCode == 80) {
-                play_midi();
-            }
-        });
-
-        $(window).resize(function(){
-            applyZoom();
-        });
-
-        $("#player").midiPlayer({
-            color: "#c00",
-            onUpdate: midiUpdate,
-            onStop: midiStop,
-            width: 250
-        });
-
-        loadFile();
-    });
 </script>
