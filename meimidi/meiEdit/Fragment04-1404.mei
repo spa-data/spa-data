@@ -2,16 +2,11 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<!-- MEI exported from musescore:
-    export score from Sibelius as musicXML,
-    then open musicXML in MuseScore,
-    then export again as musicXML and read that file into online MEI converter -->
-
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
         <fileDesc>
             <titleStmt>
-                <!-- <title>Fragment 4 - 1404.jpg</title> -->
+                 <!-- <title>Fragment 4 - 1404.jpg</title> -->
             </titleStmt>
             <pubStmt></pubStmt>
         </fileDesc>
@@ -34,8 +29,8 @@
                                 <staffDef xml:id="staffdef-0000001990000795" clef.shape="F" clef.line="4" key.sig="0" meter.count="5" meter.unit="4" n="1" lines="5" />
                                 <staffDef xml:id="staffdef-0000002032590568" clef.shape="F" clef.line="4" key.sig="0" meter.count="5" meter.unit="4" n="2" lines="5" />
                                 <!-- <label xml:id="label-0000001183701623">Piano</label>
-                                <labelAbbr xml:id="labelAbbr-0000000991190086">Pno.</labelAbbr> -->
-                                <instrDef xml:id="instrdef-0000000207633149" midi.channel="0" midi.instrnum="0" midi.volume="100.00%" />
+                                <labelAbbr xml:id="labelAbbr-0000000991190086">Pno.</labelAbbr>
+                                <instrDef xml:id="instrdef-0000000207633149" midi.channel="0" midi.instrnum="0" midi.volume="100.00%" />  -->
                             </staffGrp>
                         <!-- </staffGrp> -->
                     </scoreDef>
@@ -309,7 +304,7 @@
                                 <layer xml:id="layer-0000001092822084" n="2">
 
                                     <space xml:id="space-0000000774740869" dur="2" />
-                                    <clef xml:id="clef-0000001246350710" shape="G" line="2" />
+                                    <clef xml:id="clef-0000001246350710_x" shape="G" line="2" />
                                     <chord xml:id="chord-0000001308960598" dur="4" stem.dir="down">
                                         <artic xml:id="artic-0000000035464567" artic="acc" />
                                         <note xml:id="note-0000001746382224" oct="3" pname="f" />
@@ -324,12 +319,7 @@
                                         <note xml:id="note-0000000663474238" oct="1" pname="c" />
                                         <note xml:id="note-0000001595278903" oct="2" pname="c" >                                        </note>
                                     </chord>
-
                                     <rest xml:id="rest-0000001904229413" dur="4" />
-
-                                    <!-- FAKE last note so last chord sounds in midiplayer -->
-                                    <note xml:id="note-0000000674306904" dur="4" oct="2" pname="a" stem.dir="up" visible="false"/>
-
                                 </layer>
                             </staff>
                         </measure>

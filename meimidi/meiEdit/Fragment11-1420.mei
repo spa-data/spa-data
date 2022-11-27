@@ -38,8 +38,6 @@
                         <measure xml:id="measure-0000001634005579" n="1">
                             <staff xml:id="staff-0000000900738656" n="1">
                                 <layer xml:id="layer-0000000390144577" n="1">
-                                  <!--empty space to start-->
-                                  <space dur="16"/>
                                     <beam xml:id="beam-0000000763131978">
                                         <note xml:id="note-0000000572691269" dur="16" oct="4" pname="a" color="#000000" stem.dir="down" />
                                         <note xml:id="note-0000000113712509" dur="16" oct="4" pname="b" color="#000000" stem.dir="down">
@@ -65,8 +63,6 @@
                             </staff>
                             <staff xml:id="staff-0000000724183436" n="2">
                                 <layer xml:id="layer-0000000079691467" n="2">
-                                  <!--empty space to start-->
-                                  <space dur="16"/>
                                     <rest xml:id="rest-0000000199876728" dur="2" loc="5" />
                                     <chord xml:id="chord-0000000056233692" dur="2" stem.dir="up">
                                         <note xml:id="note-0000002109580216" oct="3" pname="a" color="#000000" />
@@ -198,11 +194,7 @@
                                     <note xml:id="note-0000000700868426" dur="8" oct="5" pname="d" color="#000000" stem.dir="down">
                                         <accid xml:id="accid-0000000589445602" accid="f" accid.ges="f" />
                                     </note>
-
                                     <rest xml:id="rest-0000001123807090" dur="8" />
-                                    <!-- Dummy Note -->
-                                    <note dur="4" pname="d" oct="5" visible="false"/>
-
                                 </layer>
                             </staff>
                             <staff xml:id="staff-0000000048550724" n="2">
@@ -216,10 +208,6 @@
                                             <accid xml:id="accid-0000000207475827" accid="f" accid.ges="f" />
                                         </note>
                                     </chord>
-
-                                    <!-- Dummy Note -->
-                                    <note dur="4" pname="d" oct="5" visible="false"/>
-
                                 </layer>
                                 <layer xml:id="layer-0000000610381715" n="1" />
                             </staff>

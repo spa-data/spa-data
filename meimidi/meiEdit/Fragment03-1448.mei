@@ -38,7 +38,6 @@
                         <measure xml:id="measure-0000000751461214" n="1">
                             <staff xml:id="staff-0000000234805795" n="1">
                                 <layer xml:id="layer-0000001968792357" n="1">
-                                  <space dur="16"/>
                                     <beam xml:id="beam-0000000612088853">
                                         <note xml:id="note-0000000628853624" dur="16" oct="4" pname="c" color="#000000" stem.dir="up">
                                             <artic xml:id="artic-0000000602684221" artic="acc" />
@@ -65,7 +64,6 @@
                             </staff>
                             <staff xml:id="staff-0000001752471628" n="2">
                                 <layer xml:id="layer-0000001365946558" n="2">
-                                  <space dur="16"/>
                                     <beam xml:id="beam-0000001250990426">
                                         <chord xml:id="chord-0000001062230495" dur="16" stem.dir="up">
                                             <note xml:id="note-0000000745508549" oct="2" pname="c" color="#000000" />
@@ -108,7 +106,7 @@
                             </staff>
 
                             <dir xml:id="dir-0000000207355066" staff="1" startid="#note-0000000628853624" place="above">
-                                <rend xml:id="rend-0000001724237050" fontfam="Plantin MT Std" fontstyle="italic" fontweight="bold" >moderato</rend>
+                               <!-- <rend xml:id="rend-0000001724237050" fontfam="Plantin MT Std" fontstyle="italic" fontweight="bold" >moderato</rend> -->
                             </dir>
                             <tempo xml:id="tempo-0000000835442380" staff="1" startid="#note-0000000628853624" mm="100" mm.unit="4" />
                         </measure>
@@ -254,7 +252,6 @@
                                             <artic xml:id="artic-0000000060360109" artic="stacc" />
                                         </note>
                                     </beam>
-                                    <note dur="4" visible="false"/>
                                 </layer>
                             </staff>
                             <slur xml:id="newslur1" startid="#note-0000001065195923" endid="#note-0000001975227823" color="#000000" />
@@ -289,7 +286,6 @@
                                             <note xml:id="note-0000000985581605" oct="2" pname="c" color="#000000" />
                                         </chord>
                                     </beam>
-                                    <note dur="4" visible="false"/>
                                 </layer>
                                 <layer xml:id="layer-0000001037413345" n="1" />
                             </staff>

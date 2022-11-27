@@ -312,7 +312,8 @@
                                 </layer>
                                 <layer xml:id="layer-0000001717178142" n="1" />
                             </staff>
-                            <tie xml:id="tie-0000000276740718" startid="#note-0000000749459884" endid="#note-0000000274341259" />
+<!--                            <tie xml:id="tie-0000000276740718" startid="#note-0000000749459884" endid="#note-0000000274341259" /> -->
+                            <tie xml:id="tie-0000000276740718" tstamp="1" tstamp2="1m+1" />
                             <hairpin xml:id="hairpin-0000001673222141" staff="1" startid="#chord-0000000839994858" endid="#note-0000000548473915" place="above" form="dim" />
                             <tie xml:id="tie-0000001837342253" startid="#note-0000001601952447" endid="#note-0000000057135697" />
                             <tie xml:id="tie-0000000279148254" startid="#note-0000001680227219" endid="#note-0000000548473915" />
@@ -329,10 +330,6 @@
                                         </note>
                                         <note xml:id="note-0000001562021144" dur="8" oct="5" pname="d" color="#000000" stem.dir="up" />
                                     </beam>
-                                    <!-- FAKE last note so last chord sounds in midiplayer -->
-                                    <note xml:id="note-fake1" dur="4" oct="2" pname="a" stem.dir="up" visible="false"/>
-                                    <note xml:id="note-fake2" dur="4" oct="2" pname="a" visible="false"/>
-
                                 </layer>
                                 <layer xml:id="layer-0000001489758225" n="2">
                                     <chord xml:id="chord-0000000021557329" dur="4" stem.dir="down">
@@ -349,7 +346,7 @@
                                     </chord>
                                 </layer>
                             </staff>
-                            <tie xml:id="tie-x1" startid="#note-0000001562021144" endid="#note-fake2" />
+                            <tie xml:id="tie-x1" startid="#note-000000094183128" endid="#note-fake2" />
 
                             <staff xml:id="staff-0000001178422339" n="2">
                                 <layer xml:id="layer-0000001136927769" n="3">

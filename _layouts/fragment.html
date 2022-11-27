@@ -13,14 +13,11 @@ layout: default
 <p>
   {% include navButtons.html %}
 
+
 <!-- SVG div -->
-<div id="svg_output"></div>
+<div id="viewer"></div>
 
-<!--  MIDI Player div-->
-<div style="height: 30px;">
-    <div id="player" style="z-index: 20; position: absolute; display: none;"></div>
-</div>
-
+  {% include midiButtons.html %}
 <!--
 verovio script for outputting, playing,
 displaying midi.

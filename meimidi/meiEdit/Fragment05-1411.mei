@@ -43,7 +43,6 @@
                             </staff>
                             <staff xml:id="staff-0000000047609582" n="2">
                                 <layer xml:id="layer-0000001120541375" n="5">
-                                  <space dur="8" />
                                     <chord xml:id="chord-0000001226166587" dur="4" stem.dir="up">
                                         <note xml:id="note-0000000440991554" oct="2" pname="f" />
                                         <note xml:id="note-0000000644793854" oct="3" pname="f" />
@@ -527,11 +526,6 @@
                                         <note xml:id="note-0000001478580334" oct="1" pname="g" />
                                         <note xml:id="note-0000001011587665" oct="2" pname="g" />
                                     </chord>
-
-                                    <!-- FAKE last note so last chord sounds in midiplayer -->
-                                    <note xml:id="note-0000000674306904" dur="4" oct="2" pname="a" stem.dir="up" visible="false"/>
-
-
                                 </layer>
                             </staff>
                         </measure>

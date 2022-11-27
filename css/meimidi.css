@@ -24,55 +24,68 @@ button {
   font-size: inherit;
 }
 
-#help_overlay {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    padding: 20px;
-    background-color: rgba(0,0,0,.8);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    z-index: 10000;
-    color: #fff;
+/* Select Note Highlight Color */
+g.note.playing {
+  fill: #007bff;
 }
 
-#help_overlay p {
-    padding: 0px;
-    margin: 2px;
+button {
+  border-radius: .20rem;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 3px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  line-height: 1;
+  font-family: inherit;
+
 }
 
-/*************************************/
-/* Choice overlay style for topic 09 */
-/*************************************/
-
-#choice_overlay {
-    position: fixed;
-    display: none;
-    padding: 20px;
-    background-color: rgba(0,0,0,.8);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    z-index: 10001;
-    color: #fff;
+button.midi {
+  border-radius: .20rem;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 3px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px
+  margin: 4px 2px;
+  cursor: pointer;
+  line-height: 1;
+  font-family: inherit;
 }
 
-#choice_overlay a {
-    color: #fff;
-    text-decoration: none;
+button.player {
+  border-radius: .20rem;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 3px 10px 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px
+  margin: 4px 2px;
+  cursor: pointer;
+  line-height: 1;
+  font-family: inherit;
 }
 
-#choice_overlay a:before {
-	content: "\25B6   ";
-}
-
-#choice_overlay p {
-    padding: 0px;
-    margin: 2px;
-    margin-bottom: 4px;
-}
-
-#choice_overlay p:not(:first-child) {
-    margin-top: 8px;
-    border-top: 1px solid #aaa;
-    padding-top: 10px;
+button.back {
+  border-radius: .20rem;
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 6px 10px 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  line-height: 1;
+  font-family: inherit;
 }

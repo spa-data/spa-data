@@ -38,7 +38,6 @@
                         <measure xml:id="measure-0000001014350553" n="1">
                             <staff xml:id="staff-0000000234819096" n="1">
                                 <layer xml:id="layer-0000001852355462" n="1">
-                                  <space dur="16"/>
                                     <beam xml:id="beam-0000000492975548">
                                         <note xml:id="note-0000001489540275" dur="8" oct="5" pname="c" color="#000000" stem.dir="down" />
                                         <note xml:id="note-0000001323445183" dur="8" oct="5" pname="d" color="#000000" stem.dir="down" />
@@ -49,7 +48,7 @@
                             </staff>
                             <staff xml:id="staff-0000000698130096" n="2">
                                 <layer xml:id="layer-0000000815307003" n="2">
-                                  <space dur="16"/>
+
                                     <chord xml:id="chord-0000000031628528" dur="2" stem.dir="up">
                                         <note xml:id="note-0000001301768413" oct="4" pname="c" color="#000000" />
                                         <note xml:id="note-0000000465191029" oct="4" pname="a" color="#000000" />
@@ -196,7 +195,6 @@
                             <staff xml:id="staff-0000001038129916" n="1">
                                 <layer xml:id="layer-0000000456885772" n="1">
                                     <note xml:id="note-0000000632577018" dur="2" oct="6" pname="c" color="#000000" stem.dir="down" />
-                                    <note dur="2" pname="c" oct="4" visible="false"/>
                                 </layer>
 
                             </staff>
